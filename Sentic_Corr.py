@@ -15,6 +15,56 @@ class Sentics:
         self.text = text
 
     # Defining get_tokens function
+    def Tokens(self):
+        doc = nlp(self.text)
+        global hierarchy, KeepGoing, to_get, CoC
+        hierarchy = []
+        KeepGoing = True
+        To_Get = []
+        CoC = []
+
+        for token in doc:
+
+            if token.dep_ == 'ROOT':
+
+                Root_childs = [child for child in token.children]
+                To_Get, CoC, KeepGoing = self.Assemble_and_COC(doc, Root_childs)
+                print(To_Get)
+                hierarchy.append(To_Get)
+                for i in range(len(CoC)):
+                    while KeepGoing != False:
+                        to_get = []
+                        coc = []
+                        to_get, coc, KeepGoing = self.Assemble_and_COC(doc, coc)
+                        print("While : " + str(to_get))
+                        print(str(KeepGoing))
+                        if to_get != None:
+                            hierarchy.append(to_get)
+
+        print(hierarchy)
+
+    def Assemble_and_COC(self, doc, childs=None):
+        to_get = []
+        CoC = []
+        KeepGoing = False
+        if childs is None:
+            childs = []
+        for child in childs:
+            position = 0
+            for token in doc:
+                if child.text == token.text:
+                    if token.dep_ not in ['punct', 'det', 'conj', 'cc', 'cc:preconj', 'list', 'dislocated', 'parataxis',
+                                          'orphan', 'reparandum', 'case']:
+                        to_get = [position, token.lemma_, token.pos_, token.dep_]
+                        CoC = [c for c in token.children]
+                        print('Assemble : ' + str(CoC))
+                        if CoC != []:
+                            KeepGoing = True
+                        else:
+                            KeepGoing = False
+                position += 1
+
+        return to_get, CoC, KeepGoing
 
     def get_tokens(self):
         # Reading the sentence
@@ -75,17 +125,24 @@ class Sentics:
             my_dict[elem] = count
             count += 1
 
+        print(out)
+
         child_by_index = list()
-        for elem in out:
+        for elem in out[3]:
             count = 0
-            for child in elem[3]:
-                if child in list(my_dict.keys()):
-                   child_by_index.append(my_dict[child])
+            for child in elem:
+                if child.text in list(my_dict.keys()):
+                    child_by_index.append(my_dict[child.text])
                 count += 1
-            out.append(child_by_index)
+                out.append(child_by_index)
             child_by_index = list()
 
+        print(out)
+
         return out
+
+    def find_first(self, input):
+        pass
 
     # Defining a function to check all combinations of tokens in senticnet6 and polarity
     @staticmethod
@@ -232,41 +289,50 @@ class Sentics:
                         sent_value = self.apply_rule(dep, token, link_elem=child)
                         sent.append(sent_value)
 
-
         out = self.compute_all_sentics(sent)
         return out
 
-    '''          
-        -> trouver
-        les
-        relations
-        avec
-        root
-        -> trouver
-        les
-        relations
-        entres
-        elles
-        -> chercher les poids
-        des
-        relations
-        -> appliquer
-        les
-        regles
-        sentics
-        a
-        ces
-        poids
-        -> appliquer
-        aux
-        relations
-        avec
-        root
-        --> mulptilpier
-        toutes
-        les
-        relations
-        de
-        root
-        -> rendre
+
+'''
+    def most_similar(self, out):
+        s2v = Sense2Vec().from_disk("s2v_reddit_2015_md/s2v_old")
+        for token, token_dep in out:
+            if token not in list((sentic.senticnet.keys()):
+               query = str(token) + "|" + str(token_dep)
+               vector = s2v[query]
+
+        return vector
+
+
+POS tag
+
+test ' je mange une pomme'
+token=[[je, [[mange, ROOT, VERB]],[mange, [[je, pron, POS], [pomme, DET, POS]]],]]
+
+for elem in token:
+    elem1 = [ROOT, je, [[CHIDS - DEP - POS]]]
+    elem2 = mange [CHIDS - DEP -POS]
+
+    je je pron [Child], [Sentics] [position] [POS]
+
+    mange -> child pomme et je --> que prendre je car je 1st
+
+
+    cherche ROOT -> child Root -> child child
+    --> 1st [ROOT]
+    [Root child1 ]
+    coc1 1
+    coc1 2
+    [root child2]
+    coc2 1
+    coc2 2
+    
+    1
+        2
+        2
+            3
+            3
+        2
+            3
+            
     '''
