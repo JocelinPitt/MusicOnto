@@ -17,132 +17,30 @@ class Sentics:
     # Defining get_tokens function
     def Tokens(self):
         doc = nlp(self.text)
-        global hierarchy, KeepGoing, to_get, CoC
-        hierarchy = []
-        KeepGoing = True
-        To_Get = []
-        CoC = []
-
+        linked = list()
         for token in doc:
+            assemble = list()
 
-            if token.dep_ == 'ROOT':
+            children = [child for child in token.children]
+            if children != []:
+                assemble = self.Assemble(doc, children)
+            if assemble != []:
+                linked.append([token.text, token.dep_, assemble])
 
-                Root_childs = [child for child in token.children]
-                To_Get, CoC, KeepGoing = self.Assemble_and_COC(doc, Root_childs)
-                print(To_Get)
-                hierarchy.append(To_Get)
-                for i in range(len(CoC)):
-                    while KeepGoing != False:
-                        to_get = []
-                        coc = []
-                        to_get, coc, KeepGoing = self.Assemble_and_COC(doc, coc)
-                        print("While : " + str(to_get))
-                        print(str(KeepGoing))
-                        if to_get != None:
-                            hierarchy.append(to_get)
+        return linked
 
-        print(hierarchy)
-
-    def Assemble_and_COC(self, doc, childs=None):
-        to_get = []
-        CoC = []
-        KeepGoing = False
-        if childs is None:
-            childs = []
+    def Assemble(self, doc , childs):
+        assemble = list()
         for child in childs:
-            position = 0
+            to_get = list()
             for token in doc:
                 if child.text == token.text:
-                    if token.dep_ not in ['punct', 'det', 'conj', 'cc', 'cc:preconj', 'list', 'dislocated', 'parataxis',
+                    if token.dep_ not in ['punct', 'det', 'cc', 'cc:preconj', 'list', 'dislocated', 'parataxis',
                                           'orphan', 'reparandum', 'case']:
-                        to_get = [position, token.lemma_, token.pos_, token.dep_]
-                        CoC = [c for c in token.children]
-                        print('Assemble : ' + str(CoC))
-                        if CoC != []:
-                            KeepGoing = True
-                        else:
-                            KeepGoing = False
-                position += 1
-
-        return to_get, CoC, KeepGoing
-
-    def get_tokens(self):
-        # Reading the sentence
-        doc = nlp(self.text)
-        # Dependancy parsing
-        # Finding lemma of each token in the sentence
-        token_lemma = [token.lemma_ for token in doc]
-        # Tokenizing the sentence
-        token_text = [token.text for token in doc]
-        # Dependancy of each token in a sentence
-        token_dep = [token.dep_ for token in doc]
-        # Defining an empty list for all children of the root
-        token_children = list()
-        token_sentic = list()
-
-        # Appending all children to the list
-        for token in doc:
-            token_children.append([child for child in token.children])
-            # we will search each token in the senticnet6 data,
-            if token in sentic.senticnet.keys():
-                # if the token is found in both senticnet6 and polarity data,
-                # the senticnet and polarity data of the token will be added to the token_sentic list.
-                if token in polarity.senticnet6.keys():
-                    token_sentic.append([sentic.senticnet[token[:4]], polarity.senticnet6[token[:4]]])
-                # otherwise, if the token is just found at senticnet6, only the senticnet values will be added to the
-                # list.
-                else:
-                    token_sentic.append([sentic.senticnet[token[:4]], 1])
-            # if the token is not found in senticnet6 library:
-            else:
-                # if the token has a polarity, we will consider null values for the senticnet and we will add the
-                # polarity values
-                if token in polarity.senticnet6.keys():
-                    token_sentic.append([[0, 0, 0, 0], polarity.senticnet6[token[:4]]])
-                # if the token neither senticnet values nor polarity values, the token will added with senticnet null
-                # values and is considered with polarity 1.
-                else:
-                    token_sentic.append([[0, 0, 0, 0], 1])
-        # The out is defined to have a list of the analysis of all tokens in the sentence.
-
-        out = [token_lemma, token_text, token_dep, token_children, token_sentic]
-
-        # Remove elem that are not useful in sentics analysis
-        count = 0
-        for elem in out[2]:
-            if elem != ['punct', 'det', 'conj', 'cc', 'cc:preconj', 'list', 'dislocated', 'parataxis', 'orphan',
-                        'reparandum', 'case']:
-                count += 1
-            else:
-                for type in out:
-                    type.pop(count)
-                    count += 1
-
-        # Transform children value to index in sentance
-        count = 0
-        my_dict = dict()
-        for elem in token_text:
-            my_dict[elem] = count
-            count += 1
-
-        print(out)
-
-        child_by_index = list()
-        for elem in out[3]:
-            count = 0
-            for child in elem:
-                if child.text in list(my_dict.keys()):
-                    child_by_index.append(my_dict[child.text])
-                count += 1
-                out.append(child_by_index)
-            child_by_index = list()
-
-        print(out)
-
-        return out
-
-    def find_first(self, input):
-        pass
+                        to_get = [token.lemma_, token.pos_, token.dep_]
+            if to_get != []:
+                assemble.append(to_get)
+        return assemble
 
     # Defining a function to check all combinations of tokens in senticnet6 and polarity
     @staticmethod
@@ -269,8 +167,14 @@ class Sentics:
 
     # Main function
     def main(self):
-        tokens = self.get_tokens()
-        sent = list()
+        data = self.Tokens()
+
+        for elem in data:
+            if elem[1] == 'ROOT':
+                print(type(elem[2][1][0]))
+
+
+        '''sent = list()
         # For combination of root and the childs, if the match is found in datasets, the overall sentiment
         # is calculated using the functions previously defined.
         for token in tokens:
@@ -290,7 +194,7 @@ class Sentics:
                         sent.append(sent_value)
 
         out = self.compute_all_sentics(sent)
-        return out
+        return out'''
 
 
 '''
