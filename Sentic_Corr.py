@@ -2,6 +2,7 @@
 import spacy
 import senticnet6 as sentic  # A module for sentiment analysis
 import senticnet6_polarity as polarity
+from sense2vec import Sense2Vec
 
 # English language loaded for reading the text files with spacy.
 nlp = spacy.load("en_core_web_sm")
@@ -24,8 +25,13 @@ class Sentics:
             children = [child for child in token.children]
             if children != []:
                 assemble = self.Assemble(doc, children)
+            # linked is a list that contains the lemma, depandancy & assemble data of every children in doc.
             if assemble != []:
-                linked.append([token.text, token.dep_, assemble])
+                linked.append([token.lemma_, token.dep_, assemble])
+
+        for elem in linked:
+            if elem[1] == 'prep':
+                self.Ignore_prep(linked)
 
         return linked
 
@@ -41,6 +47,87 @@ class Sentics:
             if to_get != []:
                 assemble.append(to_get)
         return assemble
+
+    def Ignore_prep(self, linked):
+        remember_elem = None
+        remember = None
+        remember_pos = int()
+        count = int()
+        for elem in linked:
+            if remember == None:
+                if elem[1] != 'prep':
+                    count_child = 0
+                    for child in elem[2]:
+                        if child[2] == 'prep':
+                            remember_elem = count
+                            remember_pos = count_child
+                            remember = child
+                        count_child += 1
+            if remember != None:
+                if remember[0] == elem[0]:
+                    if len(elem[2]) == 1:
+                        linked[remember_elem][2][remember_pos] = elem[2][0]
+                        linked.pop(count)
+                        remember_elem = None
+                        remember = None
+                        remember_pos = int()
+            count += 1
+
+    def check_combinaison(self, root, child):
+        check_sent = bool()
+        check_pol = bool()
+
+        # combine is a combination of two elements (tokens) that are connected with underscore in datasets.
+        combine = str(root) + '_' + str(child[0])
+
+        check_sent, check_pol = self.check_dict(combine)
+
+        if not (check_sent or check_pol):
+            combine = str(child[0]) + '_' + str(root)
+            check_sent, check_pol = self.check_dict(combine)
+            if not (check_sent or check_pol):
+                # most similar ....
+                #child c est une list (str, ADJ, dep)
+                combine = str(root) + '_' + str(self.most_similar(child))
+                check_sent, check_pol = self.check_dict(combine)
+                if not (check_sent or check_pol):
+                    #ca va pas marcher car root c est juste un str
+                    combine = str(self.most_similar(root)) + '_' + str(child[0])
+                    check_sent, check_pol = self.check_dict(combine)
+                pass
+
+        if check_sent:
+            match = True
+            sentics.append(sentic.senticnet[combine[:4]])
+        else:
+            sentics.append([0,0,0,0])
+
+        if check_pol:
+            match = True
+            polar = polarity.senticnet6[combine]
+        else:
+            polar = 1
+
+        merge = [sentics, polar]
+        return merge, match
+
+        '''# If the combination exists in senticnet & polarity, the both data will be appended to the _temp_sentics list.
+        if combine in sentic.senticnet.keys():
+            if combine in polarity.senticnet6.keys():
+                _temp_sentics.append([sentic.senticnet[combine[:4]], polarity.senticnet6[combine[:4]]])
+            # If the combination is not found in polarity, the porilty is assumed to be 1.
+            else:
+                _temp_sentics.append([sentic.senticnet[combine[:4]], 1])
+        elif
+
+        # When the combination is found in neither datasets:
+        else:
+            match = False
+            _temp_sentics.append([[0, 0, 0, 0], 1])
+        # combine_sentics is a list that contains all the _temp_sentics.
+        combine_sentics.append(_temp_sentics)'''
+
+        return match, combine_sentics
 
     # Defining a function to check all combinations of tokens in senticnet6 and polarity
     @staticmethod
@@ -165,13 +252,48 @@ class Sentics:
         final = [sent1, sent2, sent3, sent4]
         return final
 
+    @staticmethod
+    def most_similar(out= list(), root= str()):
+        #query = str()
+        s2v = Sense2Vec().from_disk("s2v_reddit_2015_md/s2v_old")
+        if root:
+            #on suppose que root c est toujours soit un VERB soit NOUN --> meme si cest pas vrai (car marche root, mais pas entre les childs)
+            token_deps = ['VERB', 'NOUN']
+            for token_dep in token_deps:
+                query = str(root) + "|" + str(token_dep)
+                vector = s2v[query]
+                return vector
+        if out:
+            token = out[0]
+            token_dep = out[1]
+        #if token not in list((sentic.senticnet.keys())):
+            query = str(token) + "|" + str(token_dep)
+            vector = s2v[query]
+            return vector[0]
+
+    def check_dict(self, to_check):
+        check_sent = bool()
+        check_pol = bool()
+
+        if to_check in sentic.senticnet.keys():
+            check_sent = True
+        else:
+            check_sent = False
+
+        if to_check in polarity.senticnet6.keys():
+            check_pol = True
+        else:
+            check_pol = False
+
+        return check_sent, check_pol
+
     # Main function
     def main(self):
         data = self.Tokens()
 
         for elem in data:
             if elem[1] == 'ROOT':
-                print(type(elem[2][1][0]))
+                pass
 
 
         '''sent = list()
@@ -198,14 +320,7 @@ class Sentics:
 
 
 '''
-    def most_similar(self, out):
-        s2v = Sense2Vec().from_disk("s2v_reddit_2015_md/s2v_old")
-        for token, token_dep in out:
-            if token not in list((sentic.senticnet.keys()):
-               query = str(token) + "|" + str(token_dep)
-               vector = s2v[query]
-
-        return vector
+    
 
 
 POS tag
