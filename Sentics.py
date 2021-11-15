@@ -3,6 +3,8 @@ import spacy
 import senticnet6 as sentic  # A module for sentiment analysis
 import senticnet6_polarity as polarity
 
+from sense2vec import Sense2Vec
+
 # English language loaded for reading the text files with spacy.
 nlp = spacy.load("en_core_web_sm")
 
@@ -217,7 +219,7 @@ class Sentics:
             to_get = list()
             for token in doc:
                 if child.text == token.text:
-                    if token.dep_ not in ['punct', 'det', 'cc', 'cc:preconj', 'list', 'dislocated', 'parataxis',
+                    if token.dep_ not in ['punct', 'NUM', 'det', 'cc', 'cc:preconj', 'list', 'dislocated', 'parataxis',
                                           'orphan', 'reparandum', 'case']:
                         to_get = [token.lemma_, token.pos_, token.dep_]
             if to_get != []:
@@ -250,23 +252,19 @@ class Sentics:
             count += 1
 
     def link_with_child(self, root, list_of_childs):
-        print('coucou')
-
         list_of_combinaison = list()
 
         for child in list_of_childs:
             combinaison, match = self.check_combinaison(root, child)
             list_of_combinaison.append(combinaison)
 
-        print(list_of_combinaison)
-        return list_of_combinaison
+        return list_of_combinaison, match
 
     # Defining a function to check all combinations of tokens in senticnet6 and polarity
     def check_combinaison(self, root, child):
-        print('coucou2')
-        check_sent = bool()
-        check_pol = bool()
-        match = bool
+        check_sent = False
+        check_pol = False
+        match = False
         sentics = list()
         polar = int()
 
@@ -284,7 +282,7 @@ class Sentics:
 
         if check_sent:
             match = True
-            sentics.append(sentic.senticnet[combine[:4]])
+            sentics.append(sentic.senticnet[combine][:4])
         else:
             sentics.append([0,0,0,0])
 
@@ -296,13 +294,11 @@ class Sentics:
 
         merge = [sentics, polar]
 
-        print(merge, match)
         return merge, match
 
     def check_dict(self, to_check):
-        print('coucou3')
-        check_sent = bool()
-        check_pol = bool()
+        check_sent = False
+        check_pol = False
 
         if to_check in sentic.senticnet.keys():
             check_sent = True
@@ -317,9 +313,9 @@ class Sentics:
         return check_sent, check_pol
 
     def raw_sentics(self, root):
-        check_sent = bool()
-        check_pol = bool()
-        match = bool
+        check_sent = False
+        check_pol = False
+        match = False
         sentics = list()
         polar = int()
 
@@ -341,22 +337,77 @@ class Sentics:
 
         return merge, match
 
+    def Is_neg(self, list_of_child):
+        for child in list_of_child:
+            if child[2] == 'neg':
+                return -1
+            else:
+                return 1
+
+    def most_similar(self, out= list(), root= str()):
+        #query = str()
+        s2v = Sense2Vec().from_disk("s2v_reddit_2015_md/s2v_old")
+        if root:
+            #on suppose que root c est toujours soit un VERB soit NOUN --> meme si cest pas vrai (car marche root, mais pas entre les childs)
+            token_deps = ['VERB', 'NOUN']
+            for token_dep in token_deps:
+                query = str(root) + "|" + str(token_dep)
+                vector = s2v[query]
+                return vector
+        if out:
+            token = out[0]
+            token_dep = out[1]
+            #if token not in list((sentic.senticnet.keys())):
+            query = str(token) + "|" + str(token_dep)
+            vector = s2v[query]
+            return vector[0]
+
     # Main function
     def main(self):
         datas = self.Tokens()
         sentics = list()
-        match = bool()
+        match = False
+        IsNeg = 1
 
         for data in datas:
-            if data[1] == 'ROOT':
+            print(data)
+        print(len(datas))
+
+        for data in datas:
+            # Work to get sentics when the element is a conjuct. Has prep have been remove, conj childs are to be
+            # treaten separatly, if found they prevail over the conj senitcs
+            if data[1] in ['conj']:
+                conj_value = data[0]
+                conj_children = [child for child in data[2]]
+                match = False
+                Meta_match = False
+
+                IsNeg = self.Is_neg(Root_chilrdren)
+
+                for child in conj_children:
+                    conj_child_checks, match = self.raw_sentics(child[0])
+
+                    if match:
+                        sentics.append([[check * IsNeg for check in conj_child_checks], match])
+                        Meta_match = True
+
+                if not Meta_match:
+                    conj_checks, match = self.raw_sentics(conj_value)
+
+                    sentics.append([[check * IsNeg for check in conj_checks], match])
+
+            # Work to get sentics when the element (data) is the Root element of the phrase
+            else:
                 Root_value = data[0]
                 Root_chilrdren = [child for child in data[2]]
 
-                print(Root_chilrdren)
-                print(type(Root_chilrdren))
+                IsNeg = self.Is_neg(Root_chilrdren)
+
                 Root_checks, match = self.link_with_child(Root_value, Root_chilrdren)
 
-        '''if not match:
-            sentics, raw_match = self.raw_sentics(Root_value)'''
+                if not match:
+                    Root_checks, match = self.raw_sentics(Root_value)
 
-        return Root_checks
+                sentics.append([[check*IsNeg for check in Root_checks], match])
+
+        return sentics
