@@ -195,7 +195,7 @@ class Sentics:
                 query = str(root) + "|" + str(token_dep)
                 if s2v.__contains__(query):
                     out = s2v.most_similar(query)
-                    best.append([out[0][0].split('|')[0],out[0][1]])
+                    best.append([out[0][0].split('|')[0], out[0][1]])
             if best != []:
                 best_conf = max(map(lambda x: x[1], best))
                 for elem in best:
@@ -210,7 +210,10 @@ class Sentics:
             query = str(token) + "|" + str(token_dep)
             if s2v.__contains__(query):
                 out = s2v.most_similar(query)
-                return out[0][0].split('|')[0]
+                if out[0][0].split('|')[0]:
+                    return out[0][0].split('|')[0]
+                else:
+                    return child
             else:
                 return child
 
