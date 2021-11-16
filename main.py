@@ -73,10 +73,11 @@ class Songs:
     def moy_sentics(self, list_of_list):
         sent1 = sent2 = sent3 = sent4 = int(0)
         for elem in list_of_list:
-            sent1 = (float(elem[0]) + sent1)
-            sent2 = (float(elem[1]) + sent2)
-            sent3 = (float(elem[2]) + sent3)
-            sent4 = (float(elem[3]) + sent4)
+            if elem != []:
+                sent1 = (float(elem[0]) + sent1)
+                sent2 = (float(elem[1]) + sent2)
+                sent3 = (float(elem[2]) + sent3)
+                sent4 = (float(elem[3]) + sent4)
 
         if sent1 != 0:
             sent1 = sent1 / len(list_of_list)

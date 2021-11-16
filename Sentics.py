@@ -222,10 +222,11 @@ class Sentics:
     def compute_all_sentics(self, dic):
         sent1 = sent2 = sent3 = sent4 = int(0)
         for elem in dic:
-            sent1 = (float(dic[elem][0][0][0]) + sent1) * int(dic[elem][1])
-            sent2 = (float(dic[elem][0][0][1]) + sent2) * int(dic[elem][1])
-            sent3 = (float(dic[elem][0][0][2]) + sent3) * int(dic[elem][1])
-            sent4 = (float(dic[elem][0][0][3]) + sent4) * int(dic[elem][1])
+            if dic[elem][0] != []:
+                sent1 = (float(dic[elem][0][0][0]) + sent1) * int(dic[elem][1])
+                sent2 = (float(dic[elem][0][0][1]) + sent2) * int(dic[elem][1])
+                sent3 = (float(dic[elem][0][0][2]) + sent3) * int(dic[elem][1])
+                sent4 = (float(dic[elem][0][0][3]) + sent4) * int(dic[elem][1])
         if sent1 != 0:
             sent1 = sent1 / len(dic)
         if sent2 != 0:
