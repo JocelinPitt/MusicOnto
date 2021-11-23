@@ -1,4 +1,5 @@
 # Importing the necessary python libraries
+
 import spacy
 import senticnet6 as sentic  # A module for sentiment analysis
 import senticnet6_polarity as polarity
@@ -18,6 +19,14 @@ class Sentics:
 
     # Defining get_tokens function
     def Tokens(self):
+        """ Tokens is a functions that returns
+
+        Returns:
+            (1)children of each root,
+            (2)lemma & dependency of each child,
+            (3)ignores the tokens with preposition dependency
+
+        """
         doc = nlp(self.text)
         linked = list()
         for token in doc:
@@ -35,6 +44,18 @@ class Sentics:
     # this function remove non-semantics elements from the phrase and reformat the doc variable from nlp() to in a
     # more usefull shape
     def Assemble(self, doc , childs):
+
+        """ Assemble is a function that creates a list of children whose dependency is excluded
+        of the list defined in the function (like punctuations and determinations)
+
+        Args:
+            doc: nlp analyzed sentence
+            childs: the children of the root in each doc
+
+        Returns:
+            list: assemble --> a list of selected tokens (children)
+
+        """
         assemble = list()
         for child in childs:
             to_get = list()
@@ -47,9 +68,18 @@ class Sentics:
                 assemble.append(to_get)
         return assemble
 
-    # This function reshape the new doc variable and remove prep elements as those carries over their sementicals
-    # values to their child
+
     def Ignore_prep(self, linked):
+        """ Ignore_prep is a function that reformats the new doc variables and remove prep elements as those carries over their sementicals
+        values to their child
+
+        Args:
+            linked: a list that contains lemma, dependency and the child (token)
+
+        Returns:
+            The reformated linked (list) where the prepositions are deleted.
+
+        """
         remember_elem = None
         remember = None
         remember_pos = int()
@@ -77,6 +107,20 @@ class Sentics:
     # this function iterate through every child of an meaningful element and try to catch a combine value from the
     # Senticnet dict
     def link_with_child(self, root, list_of_childs):
+        """ link_with_child is a function that uses ``check_combinaison``function in order to iterate over each child
+        of a root token to create a list meaningful combinations of roots and their children. It also returns the sentiment
+        value of each combination found in ``Senticnet``dataset.
+
+        Args:
+            root: a token that other tokens are dependent to it.
+            list_of_childs: a list of children for every root.
+
+        Returns:
+            list_of_combinaison: a list with all combinations of root & its children
+            match: bool: True if successful, False otherwise.
+            sentiments: Values for the combinations found in Senticnet dataset
+
+        """
         global match, sentiments
         list_of_combinaison = list()
         for child in list_of_childs:
@@ -86,6 +130,19 @@ class Sentics:
 
     # Defining a function to check all combinations of tokens in senticnet6 and polarity
     def check_combinaison(self, root, child):
+        """ check_combinaison is a function that verifies all the combinations of tokens in ``Senticnet6``& ``Polarity``
+        Datasets.
+
+        Args:
+            root: Token whose dependency in nlp is root
+            child: the token which is dependent to root
+
+        Returns:
+            merge: A list of ``Senticnet`` & ``Polarity`` values for every combination
+            match: bool: True if successful, False otherwise.
+            sentiments: A list of two first sentiments  for the combinations found in Senticnet dataset
+
+        """
         check_sent = False
         check_pol = False
         match = False
@@ -137,6 +194,18 @@ class Sentics:
 
     # This simple function will check if an element exist in the senticnet dict
     def check_dict(self, to_check):
+        """ Check_dict is a simple function for verifying the existence of a token in ``Senticnet`` & ``Polarity``
+        datasets.
+
+        Args:
+            to_check: Tokens and combinations that their exsitence will be checked in ``Senticnet`` & ``Polarity``
+        datasets.
+
+        Returns:
+            check_sent : bool: True if successful, False otherwise.
+            check_pol : bool: True if successful, False otherwise.
+
+        """
         check_sent = False
         check_pol = False
         if to_check in sentic.senticnet.keys():
@@ -151,6 +220,18 @@ class Sentics:
 
     # This function does the same as check_combinaison but works on single word input
     def raw_sentics(self, root):
+        """ raw_sentics is a function that checks the existence of a single token in in ``Senticnet`` & ``Polarity``
+        datasets.
+
+        Args:
+            root: A token whose presence will be checked in the two datasets.
+
+        Returns:
+            merge: A list of ``Senticnet`` & ``Polarity`` values for every combination
+            match: bool: True if successful, False otherwise.
+            sentiments: A list of two first sentiments  for the combinations found in Senticnet dataset
+
+        """
         check_sent = False
         check_pol = False
         match = False
@@ -173,9 +254,18 @@ class Sentics:
         merge = [sentics, polar]
         return merge, match, sentiments
 
-    # This function will reverse the value we get from the senticnet dict if it found a child with a 'neg' depedancy
+    # This function will reverse the value we get from the senticnet dict if it found a child with a 'neg' dependency
     # value
     def Is_neg(self, list_of_child):
+        """ Is_neg is a function that will reverse the senticnet value when the child has a neg dependency.
+
+        Args:
+            list_of_child: A list of all childs of a root
+
+        Returns:
+            int: -1,1
+
+        """
         for child in list_of_child:
             if child[2] == 'neg':
                 return -1
@@ -186,9 +276,22 @@ class Sentics:
     # match, splited to give back only the word without the pos value. It can work from a single word, we'll then
     # assume that this word is a verb or a noun. Or it can work with a list witch include the Pos value.
     def most_similar(self, child=list(), root=str()):
+        """ most_similar is a function that uses the Sense2Vec module in order to find similar words. For the
+        simplicity of the work, we assumed that the word that we are searching for its similar meaning is either
+        noun or verb.
+
+
+        Args:
+            child: the child of a token root.
+            root: The root token
+
+        Returns:
+            similar words
+
+        """
         s2v = Sense2Vec().from_disk("s2v_reddit_2015_md/s2v_old")
         if root:
-            # We suppose ta
+            # We suppose that
             token_deps = ['VERB', 'NOUN']
             best = list()
             for token_dep in token_deps:
@@ -220,6 +323,14 @@ class Sentics:
     # This function will get all the sentics values we found and calculate the meanings of those.
     # This procedure may be improve as it's not proven that the mean value as any real utilities.
     def compute_all_sentics(self, dic):
+        """ This function will calculate the overall sentiment of a sentence by using the mean calculation.
+
+        Args:
+            dic: All of the necessary tokens of the sentence
+
+        Returns:
+
+        """
         sent1 = sent2 = sent3 = sent4 = int(0)
         for elem in dic:
             if dic[elem][0] != []:
@@ -237,9 +348,16 @@ class Sentics:
             sent4 = sent4 / len(dic)
         return [sent1, sent2, sent3, sent4]
 
-    # Main function. It get a sentance as input and give out the sentics values calculated and a list of all
-    # sentiments found in the sentance
+    # Main function. It get a sentence as input and give out the sentics values calculated and a list of all
+    # sentiments found in the sentence
     def main(self):
+        """ This is the main function. Its functionality is to analyse a sentence as an input and calculate its
+        overall sentiment.
+
+        Returns:
+            The overall sentiment of the sentence
+
+        """
         datas = self.Tokens()
         sentics = dict()
         all_sentiments = list()
