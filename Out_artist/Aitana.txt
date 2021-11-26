@@ -1,0 +1,50 @@
+Arde :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Vas A Quedarte :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+TELÉFONO :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Stupid :
+Sentics : [0.54315, 0.2344875, 0.11397499999999999, 0.172675]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#anger', '#sadness', '#anger', '#calmness', '#eagerness', '#joy', '#calmness', '#joy', '#eagerness', '#calmness', '#eagerness', '#calmness', '#calmness', '#sadness', '#anger', '#joy', '#eagerness', '#disgust', '#fear', '#sadness', '#pleasantness', '#joy', '#eagerness', '#sadness', '#anger', '#joy', '#pleasantness', '#joy', '#eagerness', '#anger', '#eagerness', '#sadness', '#anger', '#sadness', '#anger', '#joy', '#eagerness', '#joy', '#pleasantness', '#joy', '#pleasantness', '#sadness', '#anger', '#joy', '#pleasantness', '#joy', '#eagerness']
+Counter({'#joy': 12, '#eagerness': 10, '#sadness': 8, '#anger': 8, '#calmness': 5, '#pleasantness': 5, '#disgust': 1, '#fear': 1})
+
+Popcorn :
+Sentics : [0.357, 0.24663157894736842, 0.06873684210526317, 0.13889473684210527]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#disgust', '#calmness', '#calmness', '#pleasantness', '#eagerness', '#calmness', '#calmness', '#pleasantness', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#anger', '#calmness', '#eagerness', '#sadness', '#anger', '#joy', '#calmness', '#sadness', '#anger', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#joy']
+Counter({'#joy': 10, '#eagerness': 8, '#calmness': 6, '#sadness': 4, '#anger': 3, '#pleasantness': 2, '#disgust': 1})
+
+Con La Miel En Los Labios :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Nada Sale Mal :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+11 RAZONES :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Me Quedo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mejor Que Tú :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

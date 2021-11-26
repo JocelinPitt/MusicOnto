@@ -1,0 +1,50 @@
+Felices los 4 :
+Sentics : [0.9, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+Corazón :
+Sentics : [0.5536666666666666, 0.34933333333333333, -0.06999999999999999, 0.111]
+Sentiments : ['#calmness', '#calmness', '#joy', '#calmness', '#joy', '#joy']
+Counter({'#calmness': 3, '#joy': 3})
+
+GPS :
+Sentics : [0.23911538461538462, 0.09707692307692307, -0.05092307692307693, 0.3644230769230769]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear', '#joy', '#calmness', '#sadness', '#disgust', '#sadness', '#disgust', '#sadness', '#fear', '#joy', '#calmness', '#joy', '#eagerness', '#sadness', '#fear', '#pleasantness', '#fear', '#pleasantness', '#eagerness', '#calmness', '#eagerness']
+Counter({'#sadness': 5, '#joy': 4, '#eagerness': 4, '#fear': 4, '#calmness': 3, '#disgust': 2, '#pleasantness': 2})
+
+Hawái :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+El Préstamo :
+Sentics : [0.0, 0.0, 0.0, 0.83]
+Sentiments : ['#eagerness', '#eagerness']
+Counter({'#eagerness': 2})
+
+Vitamina :
+Sentics : [0.9285, 0.447, 0.0, 0.4605]
+Sentiments : ['#joy', '#eagerness', '#joy', '#joy']
+Counter({'#joy': 3, '#eagerness': 1})
+
+Marinero :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mala Mía :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+HP :
+Sentics : [0.9, -0.14, 0.62, -0.057]
+Sentiments : ['#sadness', '#disgust', '#sadness', '#disgust']
+Counter({'#sadness': 2, '#disgust': 2})
+
+11 PM :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,50 @@
+Head & Heart :
+Sentics : [0.4413137254901961, 0.14411764705882352, 0.026411764705882353, 0.3237843137254902]
+Sentiments : ['#joy', '#calmness', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#calmness', '#sadness', '#sadness', '#sadness', '#anger', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#sadness': 10, '#joy': 9, '#eagerness': 8, '#fear': 5, '#calmness': 3, '#anger': 3})
+
+Sorry :
+Sentics : [0.3957777777777778, -0.0898888888888889, 0.15891666666666665, 0.25119444444444444]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#disgust', '#pleasantness', '#pleasantness', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#pleasantness', '#joy', '#eagerness', '#sadness', '#pleasantness', '#sadness', '#disgust', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#eagerness', '#disgust', '#fear', '#joy', '#eagerness', '#sadness', '#disgust', '#sadness', '#disgust']
+Counter({'#joy': 9, '#sadness': 9, '#eagerness': 7, '#disgust': 5, '#fear': 4, '#pleasantness': 4})
+
+Lonely :
+Sentics : [0.33619607843137256, -0.06976470588235294, 0.0048823529411764705, 0.33166666666666667]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#pleasantness', '#pleasantness', '#fear', '#sadness', '#fear', '#fear', '#fear', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#joy', '#joy', '#eagerness', '#sadness', '#fear']
+Counter({'#joy': 7, '#eagerness': 5, '#fear': 5, '#sadness': 3, '#pleasantness': 2, '#calmness': 2})
+
+Lonely (Goodboys Remix) :
+Sentics : [0.33714814814814814, -0.06025, -0.007444444444444444, 0.3548148148148148]
+Sentiments : ['#sadness', '#pleasantness', '#pleasantness', '#fear', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#pleasantness', '#pleasantness', '#fear', '#sadness', '#fear', '#fear', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#joy', '#joy', '#eagerness', '#sadness', '#disgust', '#sadness', '#disgust']
+Counter({'#sadness': 8, '#fear': 8, '#joy': 7, '#eagerness': 5, '#pleasantness': 4, '#calmness': 2, '#disgust': 2})
+
+Head & Heart (Acoustic) :
+Sentics : [0.33216666666666667, 0.105, 0.0295, 0.2545]
+Sentiments : ['#joy', '#calmness', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#calmness', '#sadness', '#sadness', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#sadness': 12, '#joy': 7, '#fear': 7, '#eagerness': 6, '#calmness': 3, '#anger': 3})
+
+Head & Heart (Tiësto Remix) :
+Sentics : [0.2915138888888889, 0.175, 0.0659861111111111, 0.22654166666666667]
+Sentiments : ['#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#calmness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#eagerness']
+Counter({'#sadness': 13, '#fear': 9, '#joy': 7, '#eagerness': 6, '#anger': 4, '#calmness': 3})
+
+Lonely (VIZE Remix) :
+Sentics : [0.2515833333333333, -0.074125, 0.0051875, 0.23489583333333333]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#pleasantness', '#pleasantness', '#fear', '#sadness', '#fear', '#fear', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#joy']
+Counter({'#joy': 6, '#eagerness': 4, '#fear': 4, '#sadness': 2, '#pleasantness': 2, '#calmness': 2})
+
+Head & Heart (Vintage Culture & Fancy Inc Remix) :
+Sentics : [0.5256666666666667, 0.22272727272727272, 0.040818181818181816, 0.4185757575757576]
+Sentiments : ['#joy', '#calmness', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#calmness', '#sadness', '#anger', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 8, '#sadness': 8, '#eagerness': 7, '#fear': 5, '#calmness': 3, '#anger': 3})
+
+Head & Heart (Ofenbach Remix) :
+Sentics : [0.4126458333333333, 0.15312499999999998, 0.0280625, 0.2877708333333333]
+Sentiments : ['#joy', '#calmness', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#calmness', '#sadness', '#sadness', '#sadness', '#anger', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#sadness': 10, '#joy': 8, '#eagerness': 7, '#fear': 5, '#calmness': 3, '#anger': 3})
+
+Sorry (Majestic Remix) :
+Sentics : [0.304, -0.1618, 0.11584999999999998, 0.20845000000000002]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#disgust', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#pleasantness', '#sadness', '#disgust', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 6, '#sadness': 6, '#eagerness': 4, '#fear': 3, '#disgust': 2, '#pleasantness': 1})
+

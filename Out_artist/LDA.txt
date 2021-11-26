@@ -1,0 +1,10 @@
+Parado no Bailão :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Parado no Bailão (150 BPM) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

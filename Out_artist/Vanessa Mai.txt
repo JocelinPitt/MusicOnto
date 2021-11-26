@@ -1,0 +1,50 @@
+Wir 2 immer 1 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Regenbogen :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Highlight (Ti si moja snaga) [FreeESC Version] :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Highlight :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Und wenn ich träum :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Venedig (Love Is in the Air) :
+Sentics : [0.8775000000000001, 0.0, -0.14233333333333334, 0.785]
+Sentiments : ['#pleasantness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 3, '#eagerness': 3, '#pleasantness': 1, '#fear': 1})
+
+Leichter :
+Sentics : [0.969, 0.0, 0.0, 0.927]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Beste Version :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Ruf nicht mehr an :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ich vermiss dich so :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

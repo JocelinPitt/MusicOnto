@@ -1,0 +1,50 @@
+Hoje Eu Lancei Uma Meca :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Sensual Girl :
+Sentics : [0.45, 0.0, 0.0, 0.45]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Love 66 :
+Sentics : [0.87, 0.822, 0.0, 0.717]
+Sentiments : ['#joy', '#calmness']
+Counter({'#joy': 1, '#calmness': 1})
+
+Tchau Pra Falsidade :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Senta Pro Pai :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Me Deixar :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Sonho dos Menor :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Feliz Natal :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Perpétua :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Vínculo Nenhum :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

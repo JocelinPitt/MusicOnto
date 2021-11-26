@@ -1,0 +1,50 @@
+Junge :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Männer sind Schweine :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Lasse redn :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Schrei nach Liebe :
+Sentics : [0.2866666666666667, 0.0, -0.268, 0.32]
+Sentiments : ['#sadness', '#fear', '#pleasantness', '#fear']
+Counter({'#fear': 2, '#sadness': 1, '#pleasantness': 1})
+
+M&F :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Manchmal haben Frauen... :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Deine Schuld :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Zu spät :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+1/2 Lovesong :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Himmelblau :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

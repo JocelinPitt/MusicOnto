@@ -1,0 +1,50 @@
+Sciccherie :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+17 :
+Sentics : [0.33, 0.2225, -0.308, 0.35]
+Sentiments : ['#sadness', '#fear', '#calmness', '#calmness']
+Counter({'#calmness': 2, '#sadness': 1, '#fear': 1})
+
+VOCE :
+Sentics : [-0.45, 0.415, 0.0, 0.0]
+Sentiments : ['#joy', '#joy', '#anger', '#anger']
+Counter({'#joy': 2, '#anger': 2})
+
+BUGIE :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+BABY :
+Sentics : [0.8700000000000001, 0.21, 0.0, 0.0]
+Sentiments : ['#sadness', '#anger', '#joy', '#joy', '#joy', '#joy', '#sadness', '#anger', '#joy', '#joy', '#joy', '#joy']
+Counter({'#joy': 8, '#sadness': 2, '#anger': 2})
+
+BABAGANOUSH :
+Sentics : [0.3, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+TU MI HAI CAPITO :
+Sentics : [0.9, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+MAREA :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Anna :
+Sentics : [0.65, 0.0, -0.679, 0.62]
+Sentiments : ['#sadness', '#pleasantness']
+Counter({'#sadness': 1, '#pleasantness': 1})
+
+CLITO :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

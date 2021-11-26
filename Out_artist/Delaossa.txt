@@ -1,0 +1,50 @@
+Veneno :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Rounders :
+Sentics : [0.085, 0.0, 0.0, 0.415]
+Sentiments : ['#fear', '#fear', '#joy', '#joy']
+Counter({'#fear': 2, '#joy': 2})
+
+Mirame así :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Berlanga :
+Sentics : [0.44, 0.11125, 0.25383333333333336, 0.47483333333333333]
+Sentiments : ['#sadness', '#disgust', '#calmness', '#calmness', '#joy', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#eagerness']
+Counter({'#eagerness': 3, '#calmness': 2, '#joy': 2, '#sadness': 1, '#disgust': 1, '#pleasantness': 1})
+
+Ojos Verdes :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Marte :
+Sentics : [0.0, 0.283, -0.08, 0.281]
+Sentiments : ['#calmness', '#eagerness']
+Counter({'#calmness': 1, '#eagerness': 1})
+
+Sola :
+Sentics : [0.0875, 0.129, -0.052500000000000005, 0.1815]
+Sentiments : ['#sadness', '#fear', '#calmness', '#eagerness', '#calmness', '#eagerness']
+Counter({'#calmness': 2, '#eagerness': 2, '#sadness': 1, '#fear': 1})
+
+Nightmares :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Aleluya :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Me Mudé a Madrid :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

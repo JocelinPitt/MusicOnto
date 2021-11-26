@@ -1,0 +1,15 @@
+Love Tonight :
+Sentics : [0.47003333333333336, 0.05733333333333333, -0.01703333333333333, 0.3835]
+Sentiments : ['#anger', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#anger', '#anger', '#sadness', '#anger', '#pleasantness', '#eagerness', '#sadness', '#anger', '#sadness', '#pleasantness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#anger', '#eagerness', '#sadness', '#disgust', '#sadness', '#fear', '#joy', '#eagerness']
+Counter({'#eagerness': 11, '#joy': 8, '#anger': 6, '#sadness': 6, '#fear': 2, '#pleasantness': 2, '#disgust': 1})
+
+Love Tonight (David Guetta Remix) :
+Sentics : [0.4485, 0.0, 0.0, 0.381]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Love Tonight (David Guetta Remix Edit) :
+Sentics : [0.4485, 0.0, 0.0, 0.381]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+

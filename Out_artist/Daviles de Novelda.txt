@@ -1,0 +1,40 @@
+Las Calles de Oro :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Flamenco y Bachata :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Vamonos pa’ la playa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Dime :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Ella se fue (Remix) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+No me Hables de Calle :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Me ve como un amigo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Amor Gitano :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,50 @@
+Gramme 2 Peuf :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Maghrébin :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Je pense à toi :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Taga :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Nos Vies :
+Sentics : [0.15133333333333335, 0.0, 0.31216666666666665, 0.13233333333333333]
+Sentiments : ['#pleasantness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#pleasantness': 2, '#eagerness': 1, '#joy': 1})
+
+Mon ex :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Sheitana :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Dead ça :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Double H :
+Sentics : [0.853, 0.0, 0.0, 0.822]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Igo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

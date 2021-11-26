@@ -1,0 +1,50 @@
+​malibu :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+💗💗💗 freestyle no tune + raffreddore = 🥺💗 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​tutta la notte :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​lady :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​guccy bag :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​​non + :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​hype :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​parano!a :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+​maledetta primavera :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​malibu (Trevor Daniel remix) :
+Sentics : [0.3312727272727273, 0.011727272727272725, 0.12972727272727272, 0.2106818181818182]
+Sentiments : ['#sadness', '#disgust', '#calmness', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#eagerness', '#joy', '#joy', '#sadness', '#anger', '#joy', '#pleasantness']
+Counter({'#joy': 5, '#eagerness': 4, '#sadness': 3, '#calmness': 2, '#disgust': 1, '#fear': 1, '#anger': 1, '#pleasantness': 1})
+

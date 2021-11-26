@@ -1,0 +1,40 @@
+Corazón Frío :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Llamadas Perdidas :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Está Dañada :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Noche de Relajo :
+Sentics : [0.04, 0.0, 0.0, -0.415]
+Sentiments : ['#fear', '#fear', '#sadness', '#sadness']
+Counter({'#fear': 2, '#sadness': 2})
+
+Esa Carita :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+El Greñas Mentado :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Estás en Mí Pasado :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Te Sigo Extrañando :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,50 @@
+No Hay Nadie Más :
+Sentics : [0.75, -0.279, 0.44, 0.06]
+Sentiments : ['#sadness', '#disgust']
+Counter({'#sadness': 1, '#disgust': 1})
+
+Por Perro :
+Sentics : [0.211875, 0.0, 0.1045, 0.0]
+Sentiments : ['#joy', '#pleasantness', '#joy', '#joy']
+Counter({'#joy': 3, '#pleasantness': 1})
+
+Ya No Tiene Novio :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+My Only One (No Hay Nadie Más) :
+Sentics : [0.23934920634920637, 0.06338095238095239, 0.07215079365079365, 0.16427777777777777]
+Sentiments : ['#calmness', '#calmness', '#joy', '#anger', '#joy', '#joy', '#sadness', '#disgust', '#calmness', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#pleasantness', '#sadness', '#anger', '#eagerness', '#eagerness', '#calmness', '#eagerness', '#joy', '#pleasantness', '#anger', '#anger', '#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#disgust', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#calmness', '#sadness', '#pleasantness', '#anger', '#anger', '#anger', '#anger', '#pleasantness', '#eagerness']
+Counter({'#joy': 13, '#eagerness': 11, '#anger': 8, '#calmness': 5, '#sadness': 5, '#pleasantness': 5, '#disgust': 2, '#fear': 1})
+
+Traicionera :
+Sentics : [0.853, 0.0, 0.0, 0.822]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+SUTRA :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Cristina :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Cómo Mirarte :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Devuélveme el Corazón :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Traicionera (Remix) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

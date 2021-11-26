@@ -1,0 +1,50 @@
+Ringo Starr :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Lake Washington Boulevard :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Antartide :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Scrivile Scemo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Pastello Bianco :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Irene :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Nonono :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La storia infinita :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Verdura :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Tetris :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,50 @@
+Acordando o Prédio :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+MC Lençol e DJ Travesseiro :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Amar Não É Pecado :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Vingança :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​quando a bad bater :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tudo Que Você Quiser :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Te Vivo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+2050 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Te Esperando :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Eu, Você, o Mar e Ela :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

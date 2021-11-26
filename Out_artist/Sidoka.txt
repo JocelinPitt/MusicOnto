@@ -1,0 +1,50 @@
+Não Me Sinto Mal Mais :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Mi’aDama :
+Sentics : [-0.175, 0.0, -0.365, -0.13]
+Sentiments : ['#joy', '#eagerness', '#pleasantness', '#fear']
+Counter({'#joy': 1, '#eagerness': 1, '#pleasantness': 1, '#fear': 1})
+
+Porsche :
+Sentics : [0.3055555555555556, 0.050444444444444445, 0.09, 0.22833333333333333]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#disgust', '#calmness', '#calmness', '#sadness', '#disgust', '#calmness', '#calmness', '#sadness', '#disgust', '#calmness', '#calmness', '#calmness', '#eagerness']
+Counter({'#calmness': 7, '#sadness': 3, '#disgust': 3, '#eagerness': 2, '#joy': 1})
+
+Olha Pro Oclin :
+Sentics : [0.260625, 0.043562500000000004, 0.052500000000000005, 0.1985625]
+Sentiments : ['#calmness', '#calmness', '#joy', '#eagerness', '#calmness', '#calmness', '#sadness', '#disgust', '#sadness', '#disgust', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#eagerness']
+Counter({'#calmness': 6, '#joy': 3, '#eagerness': 3, '#sadness': 2, '#disgust': 2})
+
+VIP :
+Sentics : [0.164, 0.033600000000000005, -0.0872, 0.061]
+Sentiments : ['#calmness', '#calmness', '#sadness', '#pleasantness', '#joy', '#joy']
+Counter({'#calmness': 2, '#joy': 2, '#sadness': 1, '#pleasantness': 1})
+
+07 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Drink :
+Sentics : [0.17616666666666667, 0.077, -0.0605, 0.214]
+Sentiments : ['#calmness', '#calmness', '#sadness', '#fear', '#joy', '#eagerness']
+Counter({'#calmness': 2, '#sadness': 1, '#fear': 1, '#joy': 1, '#eagerness': 1})
+
+Quadro :
+Sentics : [0.41083333333333333, 0.43683333333333335, 0.0, 0.14866666666666667]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#calmness', '#sadness', '#anger']
+Counter({'#calmness': 2, '#joy': 1, '#eagerness': 1, '#sadness': 1, '#anger': 1})
+
+Drift :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​versace, lv :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

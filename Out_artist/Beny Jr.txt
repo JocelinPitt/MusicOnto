@@ -1,0 +1,50 @@
+Fajos :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mariachi :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+#FreePeke :
+Sentics : [0.9, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+Bobby :
+Sentics : [0.5825, 0.0, -0.6957500000000001, 0.6074999999999999]
+Sentiments : ['#pleasantness', '#fear', '#sadness', '#fear', '#pleasantness', '#fear']
+Counter({'#fear': 3, '#pleasantness': 2, '#sadness': 1})
+
+Mafioso :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Suprema :
+Sentics : [0.0085, 0.077, 0.0, 0.031]
+Sentiments : ['#calmness', '#eagerness']
+Counter({'#calmness': 1, '#eagerness': 1})
+
+Parao :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Fvrdxs :
+Sentics : [0.72, 0.0, 0.0, 0.36]
+Sentiments : ['#joy', '#eagerness', '#joy', '#joy', '#joy', '#joy', '#joy', '#eagerness']
+Counter({'#joy': 6, '#eagerness': 2})
+
+Ella :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Cancion Tras Cancion :
+Sentics : [0.0, 0.445, 0.0, 0.0]
+Sentiments : ['#calmness', '#calmness']
+Counter({'#calmness': 2})
+

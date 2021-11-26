@@ -1,0 +1,50 @@
+Finis-les :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Binta :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La Belle Vie :
+Sentics : [0.5635714285714286, 0.33714285714285713, -0.20257142857142857, 0.4345]
+Sentiments : ['#sadness', '#fear', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#anger', '#anger', '#eagerness', '#sadness', '#fear']
+Counter({'#sadness': 5, '#fear': 4, '#anger': 2, '#eagerness': 1})
+
+Papa Allo :
+Sentics : [0.9, 0.0, 0.0, 0.9]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Normal :
+Sentics : [0.041666666666666664, 0.0, 0.246, -0.075]
+Sentiments : ['#sadness', '#disgust', '#sadness', '#fear', '#sadness', '#disgust', '#fear', '#fear']
+Counter({'#sadness': 3, '#fear': 3, '#disgust': 2})
+
+Santana :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+En boucle :
+Sentics : [0.5423333333333333, 0.0, 0.0, 0.5703333333333334]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 2, '#eagerness': 2})
+
+Feu d’artifice :
+Sentics : [0.68075, 0.0, -0.0425, 0.6355]
+Sentiments : ['#sadness', '#fear', '#joy', '#eagerness', '#disgust', '#disgust', '#sadness', '#disgust']
+Counter({'#disgust': 3, '#sadness': 2, '#fear': 1, '#joy': 1, '#eagerness': 1})
+
+Vaillant :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mauvais :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

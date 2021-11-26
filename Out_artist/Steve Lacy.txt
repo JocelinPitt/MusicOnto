@@ -1,0 +1,50 @@
+Dark Red :
+Sentics : [0.5657692307692308, 0.02873076923076923, 0.1362307692307692, 0.21307692307692308]
+Sentiments : ['#joy', '#joy', '#sadness', '#sadness', '#sadness', '#disgust', '#joy', '#pleasantness', '#joy', '#joy', '#sadness', '#fear', '#calmness', '#eagerness', '#sadness', '#fear', '#sadness', '#fear', '#calmness', '#calmness', '#joy', '#pleasantness', '#joy', '#pleasantness', '#sadness', '#fear', '#pleasantness', '#pleasantness', '#sadness', '#fear']
+Counter({'#sadness': 8, '#joy': 7, '#pleasantness': 5, '#fear': 5, '#calmness': 3, '#disgust': 1, '#eagerness': 1})
+
+Ryd :
+Sentics : [0.19143888888888888, 0.01455, -0.05913888888888889, 0.11797222222222221]
+Sentiments : ['#joy', '#calmness', '#joy', '#joy', '#joy', '#joy', '#calmness', '#calmness', '#joy', '#eagerness', '#pleasantness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#joy', '#pleasantness', '#fear']
+Counter({'#joy': 15, '#eagerness': 6, '#calmness': 3, '#fear': 3, '#pleasantness': 2, '#sadness': 1})
+
+Some :
+Sentics : [0.5914545454545455, 0.007787878787878788, 0.06587878787878788, 0.3823484848484848]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#pleasantness', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#sadness', '#disgust']
+Counter({'#joy': 15, '#eagerness': 10, '#calmness': 2, '#pleasantness': 1, '#sadness': 1, '#disgust': 1})
+
+C U Girl :
+Sentics : [0.1325, 0.0, 0.331, 0.155]
+Sentiments : ['#joy', '#pleasantness', '#disgust', '#fear', '#disgust', '#disgust']
+Counter({'#disgust': 3, '#joy': 1, '#pleasantness': 1, '#fear': 1})
+
+N Side :
+Sentics : [0.3468181818181818, -0.05063636363636364, 0.06922727272727272, 0.32677272727272727]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#joy', '#pleasantness', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#sadness', '#fear', '#pleasantness', '#eagerness']
+Counter({'#eagerness': 5, '#joy': 4, '#pleasantness': 2, '#sadness': 2, '#fear': 2, '#calmness': 1})
+
+Like me :
+Sentics : [0.44215765765765763, 0.02167792792792793, 0.1352027027027027, 0.27725]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear', '#joy', '#joy', '#sadness', '#sadness', '#sadness', '#disgust', '#sadness', '#disgust', '#joy', '#eagerness', '#joy', '#calmness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#disgust', '#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#anger', '#joy', '#joy', '#joy', '#calmness', '#sadness', '#disgust', '#joy', '#calmness', '#joy', '#pleasantness', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#pleasantness', '#joy', '#pleasantness', '#joy', '#pleasantness', '#joy', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#eagerness', '#joy', '#eagerness', '#joy', '#pleasantness', '#joy', '#anger', '#calmness', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#sadness', '#disgust', '#fear', '#joy', '#eagerness', '#calmness', '#calmness', '#calmness', '#eagerness', '#joy', '#eagerness', '#sadness', '#sadness', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#disgust', '#fear', '#pleasantness', '#pleasantness', '#pleasantness', '#eagerness', '#joy', '#eagerness', '#anger', '#eagerness']
+Counter({'#joy': 30, '#eagerness': 22, '#sadness': 12, '#calmness': 10, '#pleasantness': 9, '#disgust': 6, '#fear': 4, '#anger': 3})
+
+Playground :
+Sentics : [0.23559722222222224, 0.044000000000000004, 0.02708333333333333, 0.15637500000000001]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#pleasantness', '#joy', '#eagerness', '#calmness', '#calmness', '#anger', '#anger', '#joy', '#joy', '#joy', '#eagerness', '#anger', '#anger', '#calmness', '#calmness', '#joy', '#joy', '#joy', '#eagerness', '#anger', '#anger', '#joy', '#joy', '#calmness', '#eagerness', '#joy', '#eagerness', '#eagerness', '#eagerness', '#joy', '#joy', '#sadness', '#disgust', '#joy', '#eagerness', '#disgust', '#fear']
+Counter({'#joy': 14, '#eagerness': 9, '#anger': 6, '#calmness': 5, '#sadness': 2, '#disgust': 2, '#pleasantness': 1, '#fear': 1})
+
+Basement Jack :
+Sentics : [0.3924871794871795, 0.06723076923076923, -0.035846153846153854, 0.3429230769230769]
+Sentiments : ['#sadness', '#fear', '#calmness', '#calmness', '#sadness', '#fear', '#sadness', '#fear', '#fear', '#fear', '#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#fear', '#calmness', '#calmness', '#sadness', '#disgust', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#fear': 7, '#sadness': 6, '#calmness': 4, '#joy': 3, '#eagerness': 3, '#disgust': 1})
+
+Only If :
+Sentics : [0.3502121212121212, 0.3630606060606061, 0.017333333333333326, 0.2542121212121212]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#eagerness', '#sadness', '#fear', '#calmness', '#eagerness', '#calmness', '#calmness', '#joy', '#calmness', '#calmness', '#eagerness', '#calmness', '#calmness', '#anger', '#anger', '#calmness', '#eagerness', '#sadness', '#fear', '#calmness', '#eagerness', '#joy', '#eagerness', '#disgust', '#fear', '#joy', '#joy']
+Counter({'#calmness': 10, '#eagerness': 7, '#joy': 5, '#fear': 3, '#sadness': 2, '#anger': 2, '#disgust': 1})
+
+Looks :
+Sentics : [0.112625, 0.0545, -0.019999999999999997, 0.079625]
+Sentiments : ['#joy', '#calmness', '#sadness', '#fear']
+Counter({'#joy': 1, '#calmness': 1, '#sadness': 1, '#fear': 1})
+

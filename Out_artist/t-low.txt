@@ -1,0 +1,50 @@
+Ordentlich :
+Sentics : [0.02, -0.13999999999999999, 0.085, 0.28833333333333333]
+Sentiments : ['#disgust', '#disgust', '#sadness', '#anger', '#fear', '#fear', '#joy', '#eagerness']
+Counter({'#disgust': 2, '#fear': 2, '#sadness': 1, '#anger': 1, '#joy': 1, '#eagerness': 1})
+
+Geh Allein :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Entweder :
+Sentics : [0.0, 0.0, -0.205, 0.03]
+Sentiments : ['#disgust', '#fear', '#fear', '#fear']
+Counter({'#fear': 3, '#disgust': 1})
+
+Stolz :
+Sentics : [0.6333333333333333, -0.08016666666666668, -0.5293333333333333, 0.4708333333333333]
+Sentiments : ['#calmness', '#eagerness', '#pleasantness', '#fear', '#sadness', '#pleasantness', '#calmness', '#eagerness', '#sadness', '#pleasantness']
+Counter({'#pleasantness': 3, '#calmness': 2, '#eagerness': 2, '#sadness': 2, '#fear': 1})
+
+Xanax Doin Damage :
+Sentics : [0.46016666666666667, 0.09799999999999999, -0.11773333333333333, 0.31196666666666667]
+Sentiments : ['#disgust', '#disgust', '#fear', '#fear', '#joy', '#eagerness', '#sadness', '#pleasantness', '#joy', '#eagerness', '#joy', '#joy', '#calmness', '#eagerness', '#pleasantness', '#fear', '#sadness', '#disgust', '#joy', '#eagerness', '#calmness', '#calmness', '#pleasantness', '#fear', '#fear', '#fear', '#sadness', '#anger', '#fear', '#fear', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#joy']
+Counter({'#fear': 9, '#joy': 8, '#eagerness': 5, '#sadness': 4, '#disgust': 3, '#pleasantness': 3, '#calmness': 3, '#anger': 1})
+
+Crashen :
+Sentics : [0.5713333333333334, 0.023333333333333334, -0.26566666666666666, 0.641]
+Sentiments : ['#pleasantness', '#fear', '#joy', '#eagerness', '#calmness', '#eagerness']
+Counter({'#eagerness': 2, '#pleasantness': 1, '#fear': 1, '#joy': 1, '#calmness': 1})
+
+Kompliziert :
+Sentics : [0.42400000000000004, 0.034, 0.39299999999999996, 0.03]
+Sentiments : ['#calmness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#calmness': 1, '#eagerness': 1, '#joy': 1, '#pleasantness': 1})
+
+Red Wine :
+Sentics : [0.3075, 0.0, -0.2135, 0.225]
+Sentiments : ['#joy', '#joy', '#pleasantness', '#fear']
+Counter({'#joy': 2, '#pleasantness': 1, '#fear': 1})
+
+Niemals wieder back :
+Sentics : [0.42388888888888887, -0.002222222222222218, -0.005, 0.05322222222222222]
+Sentiments : ['#calmness', '#eagerness', '#anger', '#anger', '#fear', '#fear', '#sadness', '#sadness', '#sadness', '#sadness', '#calmness', '#calmness', '#joy', '#joy']
+Counter({'#sadness': 4, '#calmness': 3, '#anger': 2, '#fear': 2, '#joy': 2, '#eagerness': 1})
+
+Feelings :
+Sentics : [0.4566666666666667, 0.27999999999999997, -0.619, -0.013333333333333345]
+Sentiments : ['#pleasantness', '#fear', '#disgust', '#fear', '#sadness', '#anger']
+Counter({'#fear': 2, '#pleasantness': 1, '#disgust': 1, '#sadness': 1, '#anger': 1})
+

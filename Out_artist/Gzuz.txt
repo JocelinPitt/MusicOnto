@@ -1,0 +1,50 @@
+Optimal :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+CL500 :
+Sentics : [0.0, 0.191, 0.008, 0.069]
+Sentiments : ['#calmness', '#eagerness']
+Counter({'#calmness': 1, '#eagerness': 1})
+
+Paff Paff und weiter :
+Sentics : [0.3016666666666667, 0.25766666666666665, 0.0, 0.6246666666666667]
+Sentiments : ['#eagerness', '#eagerness', '#joy', '#eagerness']
+Counter({'#eagerness': 3, '#joy': 1})
+
+¿ Warum ? :
+Sentics : [0.2516, 0.18159999999999998, 0.059899999999999995, 0.12000000000000001]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#anger', '#calmness', '#eagerness', '#sadness', '#anger', '#calmness', '#eagerness']
+Counter({'#eagerness': 3, '#sadness': 3, '#anger': 2, '#calmness': 2, '#joy': 1, '#fear': 1})
+
+¿ Was hast du gedacht ? :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ebbe & Flut :
+Sentics : [0.405, 0.0465, -0.025, 0.477]
+Sentiments : ['#calmness', '#eagerness', '#sadness', '#fear', '#sadness', '#fear']
+Counter({'#sadness': 2, '#fear': 2, '#calmness': 1, '#eagerness': 1})
+
+Rückspiegel :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Prollz :
+Sentics : [0.15, 0.003916666666666668, 0.004166666666666666, 0.034416666666666665]
+Sentiments : ['#joy', '#joy', '#calmness', '#calmness', '#joy', '#joy', '#calmness', '#eagerness', '#calmness', '#calmness', '#fear', '#fear', '#disgust', '#fear']
+Counter({'#calmness': 5, '#joy': 4, '#fear': 3, '#eagerness': 1, '#disgust': 1})
+
+Donuts :
+Sentics : [0.0, 0.084, 0.0, 0.0]
+Sentiments : ['#calmness', '#calmness']
+Counter({'#calmness': 2})
+
+Wolke 7 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

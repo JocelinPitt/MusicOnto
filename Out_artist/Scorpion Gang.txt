@@ -1,0 +1,30 @@
+SHOOTE :
+Sentics : [0.24000000000000002, 0.11757142857142856, -0.122, 0.1285714285714286]
+Sentiments : ['#joy', '#joy', '#calmness', '#calmness', '#pleasantness', '#fear']
+Counter({'#joy': 2, '#calmness': 2, '#pleasantness': 1, '#fear': 1})
+
+GATLING :
+Sentics : [0.010000000000000009, -0.19816666666666669, 0.015, 0.142]
+Sentiments : ['#calmness', '#eagerness', '#joy', '#calmness', '#sadness', '#fear']
+Counter({'#calmness': 2, '#eagerness': 1, '#joy': 1, '#sadness': 1, '#fear': 1})
+
+ROTTERDAM :
+Sentics : [0.2485416666666667, 0.1575, -0.13783333333333334, 0.32108333333333333]
+Sentiments : ['#joy', '#joy', '#joy', '#eagerness', '#pleasantness', '#fear', '#anger', '#anger', '#fear', '#fear', '#pleasantness', '#fear', '#pleasantness', '#fear', '#sadness', '#fear', '#calmness', '#eagerness', '#joy', '#eagerness', '#sadness', '#disgust']
+Counter({'#fear': 6, '#joy': 4, '#eagerness': 3, '#pleasantness': 3, '#anger': 2, '#sadness': 2, '#calmness': 1, '#disgust': 1})
+
+KANN NICHT SEIN :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+FAMILY GUY :
+Sentics : [0.169, 0.0, 0.29683333333333334, 0.2855]
+Sentiments : ['#pleasantness', '#fear', '#fear', '#fear', '#joy', '#eagerness', '#fear', '#fear', '#pleasantness', '#eagerness']
+Counter({'#fear': 5, '#pleasantness': 2, '#eagerness': 2, '#joy': 1})
+
+INTRO :
+Sentics : [-0.023, 0.04, -0.0375, -0.0010000000000000009]
+Sentiments : ['#joy', '#eagerness', '#pleasantness', '#fear']
+Counter({'#joy': 1, '#eagerness': 1, '#pleasantness': 1, '#fear': 1})
+

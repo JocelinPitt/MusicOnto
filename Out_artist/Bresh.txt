@@ -1,0 +1,50 @@
+Angelina Jolie :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+PARA’ :
+Sentics : [0.0, 0.83, 0.0, 0.0]
+Sentiments : ['#anger', '#anger']
+Counter({'#anger': 2})
+
+Ande :
+Sentics : [0.394, 0.0, 0.455, 0.0]
+Sentiments : ['#joy', '#pleasantness']
+Counter({'#joy': 1, '#pleasantness': 1})
+
+OBLÒ :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+GIRANO :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+RABBIA DISTILLATA :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+NO PROBLEM :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Mai Brillo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Astronauti :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+NO HEROES - Outro :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,10 @@
+Trueno: Bzrp Freestyle Sessions, Vol. 6 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Trueno: Bzrp Music Sessions, Vol. 16 :
+Sentics : [0.3323, 0.1401, -0.2348, 0.09809999999999999]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#pleasantness', '#pleasantness', '#fear', '#joy', '#eagerness', '#sadness', '#disgust', '#sadness', '#anger']
+Counter({'#sadness': 3, '#joy': 2, '#eagerness': 2, '#pleasantness': 2, '#fear': 1, '#disgust': 1, '#anger': 1})
+

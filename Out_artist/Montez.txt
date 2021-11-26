@@ -1,0 +1,50 @@
+Auf & Ab :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+BDWA :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Nie mehr schreiben :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Karussell :
+Sentics : [0.787, 0.0, 0.0, 0.858]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Engel :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Vorbei :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Autobahn :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Venedig :
+Sentics : [0.39, 0.084, -0.427, 0.45]
+Sentiments : ['#pleasantness', '#fear', '#calmness', '#calmness']
+Counter({'#calmness': 2, '#pleasantness': 1, '#fear': 1})
+
+Robin Hood :
+Sentics : [0.95, 0.0, -0.699, 0.72]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+Herz aus Beton :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

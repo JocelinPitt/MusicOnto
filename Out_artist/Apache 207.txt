@@ -1,0 +1,50 @@
+Roller :
+Sentics : [0.3505, 0.0, 0.3905, 0.415]
+Sentiments : ['#fear', '#fear', '#joy', '#pleasantness']
+Counter({'#fear': 2, '#joy': 1, '#pleasantness': 1})
+
+Wieso tust Du dir das an? :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Fame :
+Sentics : [0.0, 0.0, 0.0, 0.7885]
+Sentiments : ['#fear', '#fear', '#eagerness', '#eagerness']
+Counter({'#fear': 2, '#eagerness': 2})
+
+200 km/h :
+Sentics : [0.23424999999999999, -0.017, -0.187, 0.4825]
+Sentiments : ['#fear', '#fear', '#eagerness', '#eagerness', '#calmness', '#eagerness', '#sadness', '#pleasantness']
+Counter({'#eagerness': 3, '#fear': 2, '#calmness': 1, '#sadness': 1, '#pleasantness': 1})
+
+Matrix :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Angst :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Unterwegs :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Bläulich :
+Sentics : [0.8, 0.0, 0.0, 0.74]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+Kein Problem :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+2 Minuten :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

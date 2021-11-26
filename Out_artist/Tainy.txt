@@ -1,0 +1,10 @@
+Callaita :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Callaita (Versión Limpia) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

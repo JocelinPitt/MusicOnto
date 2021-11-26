@@ -1,0 +1,25 @@
+Juramento eterno de sal :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Quiero :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Duele :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+París :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Morena :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

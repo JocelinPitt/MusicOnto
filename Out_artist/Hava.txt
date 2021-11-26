@@ -1,0 +1,50 @@
+Moje Sve :
+Sentics : [0.9, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+Korb :
+Sentics : [0.11833333333333333, 0.028, 0.008333333333333333, 0.2939166666666667]
+Sentiments : ['#sadness', '#fear', '#sadness', '#fear', '#calmness', '#calmness', '#eagerness', '#eagerness', '#joy', '#eagerness']
+Counter({'#eagerness': 3, '#sadness': 2, '#fear': 2, '#calmness': 2, '#joy': 1})
+
+Heartbreaker :
+Sentics : [0.36, 0.0, 0.0, 0.475]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+Panamera :
+Sentics : [0.4325, 0.0, -0.16012500000000002, 0.58725]
+Sentiments : ['#pleasantness', '#fear', '#pleasantness', '#eagerness', '#sadness', '#pleasantness', '#eagerness', '#eagerness', '#joy', '#eagerness']
+Counter({'#eagerness': 4, '#pleasantness': 3, '#fear': 1, '#sadness': 1, '#joy': 1})
+
+Molim :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Krank :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Weiss :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Nagelneu :
+Sentics : [-0.09999999999999998, 0.0, -0.427, -0.034999999999999976]
+Sentiments : ['#sadness', '#disgust', '#pleasantness', '#fear']
+Counter({'#sadness': 1, '#disgust': 1, '#pleasantness': 1, '#fear': 1})
+
+Idemo :
+Sentics : [0.21666666666666667, 0.0, 0.06, 0.6215]
+Sentiments : ['#eagerness', '#eagerness', '#sadness', '#disgust', '#eagerness', '#eagerness', '#joy', '#eagerness']
+Counter({'#eagerness': 5, '#sadness': 1, '#disgust': 1, '#joy': 1})
+
+Farben :
+Sentics : [0.675, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy', '#joy', '#joy', '#joy', '#joy']
+Counter({'#joy': 6})
+

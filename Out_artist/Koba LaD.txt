@@ -1,0 +1,50 @@
+RR 9.1 :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Ténébreux #1 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Train de vie :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+7 sur 7 :
+Sentics : [0.9450000000000001, 0.3705, -0.4325, 0.7055]
+Sentiments : ['#sadness', '#pleasantness', '#joy', '#eagerness']
+Counter({'#sadness': 1, '#pleasantness': 1, '#joy': 1, '#eagerness': 1})
+
+La C :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Matin :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Coffre plein :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Quotidien :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Chambre 122 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Oyé :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

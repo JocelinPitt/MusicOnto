@@ -1,0 +1,50 @@
+Cupido :
+Sentics : [0.31707986111111114, -0.031204861111111114, 0.1850798611111111, 0.5036944444444444]
+Sentiments : ['#joy', '#anger', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#calmness', '#calmness', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#eagerness', '#pleasantness', '#eagerness', '#fear', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#eagerness', '#pleasantness', '#eagerness', '#joy', '#eagerness', '#sadness', '#fear', '#pleasantness', '#eagerness', '#calmness', '#calmness', '#disgust', '#fear', '#pleasantness', '#eagerness', '#fear', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#eagerness', '#fear', '#fear', '#pleasantness', '#fear', '#joy', '#eagerness', '#pleasantness', '#eagerness', '#joy', '#pleasantness', '#joy', '#pleasantness', '#pleasantness', '#eagerness', '#joy', '#anger']
+Counter({'#eagerness': 23, '#joy': 18, '#pleasantness': 10, '#fear': 9, '#calmness': 6, '#anger': 2, '#sadness': 1, '#disgust': 1})
+
+Sciroppo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Rockstar :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tran Tran :
+Sentics : [-0.0010000000000000009, 0.485, -0.0225, 0.055]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#eagerness', '#anger', '#anger']
+Counter({'#eagerness': 2, '#anger': 2, '#joy': 1, '#calmness': 1})
+
+Serpenti A Sonagli :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ricchi x Sempre :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+BRNBQ :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Bang Bang :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Visiera a Becco :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+XNX :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

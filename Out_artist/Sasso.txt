@@ -1,0 +1,50 @@
+J’picole :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Napoli :
+Sentics : [0.3, 0.0, 0.0, 0.3]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Cartelito :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Elle veut :
+Sentics : [0.09, 0.0, 0.07, 0.0]
+Sentiments : ['#sadness', '#disgust']
+Counter({'#sadness': 1, '#disgust': 1})
+
+Freestyle Boudouki :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tout donner :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Freestyle Generation :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Parano :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Freestyle Kiwi :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Night :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

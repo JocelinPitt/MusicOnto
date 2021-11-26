@@ -1,0 +1,50 @@
+Ela É do Tipo (Remix) :
+Sentics : [0.2481, 0.04985, 0.009400000000000009, 0.2365]
+Sentiments : ['#fear', '#fear', '#joy', '#eagerness', '#joy', '#anger', '#sadness', '#fear', '#pleasantness', '#fear', '#calmness', '#eagerness', '#sadness', '#disgust', '#calmness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#fear': 4, '#joy': 3, '#eagerness': 3, '#sadness': 2, '#pleasantness': 2, '#calmness': 2, '#anger': 1, '#disgust': 1})
+
+Dentro do Carro :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ela É do Tipo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Finalidade Era Ficar em Casa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Nesse Clima Friozinho :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Evoluiu :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Eu Vou pro Baile da Gaiola :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Medley da Gaiola :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Puxando Lança No Barco Cheio de Piranha :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Dente de Leite :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

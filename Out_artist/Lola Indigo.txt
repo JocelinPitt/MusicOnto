@@ -1,0 +1,50 @@
+Ya No Quiero Ná :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mujer Bruja :
+Sentics : [0.75, -0.279, 0.44, 0.06]
+Sentiments : ['#sadness', '#disgust']
+Counter({'#sadness': 1, '#disgust': 1})
+
+Maldición :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Inocente :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Fuerte :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Ya No Quiero Ná (RMX) :
+Sentics : [0.5235, 0.081875, 0.0, 0.35591666666666666]
+Sentiments : ['#joy', '#calmness', '#joy', '#calmness', '#anger', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#calmness', '#sadness', '#fear', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#sadness', '#anger', '#sadness', '#anger']
+Counter({'#joy': 7, '#eagerness': 5, '#sadness': 4, '#calmness': 3, '#anger': 3, '#fear': 2})
+
+Subliminal :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Game Over :
+Sentics : [0.78, 0.84, 0.0, 0.0]
+Sentiments : ['#sadness', '#anger']
+Counter({'#sadness': 1, '#anger': 1})
+
+KILLA (ring ring) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Amor Veneno :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

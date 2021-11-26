@@ -1,0 +1,50 @@
+Menina ​​solta :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Too Bad :
+Sentics : [0.25779545454545455, 0.031045454545454546, 0.12895454545454546, 0.42477272727272725]
+Sentiments : ['#sadness', '#disgust', '#joy', '#joy', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#fear', '#fear', '#calmness', '#calmness', '#sadness', '#fear', '#pleasantness', '#eagerness', '#disgust', '#fear', '#fear', '#fear', '#fear', '#fear', '#pleasantness', '#eagerness', '#joy', '#pleasantness', '#joy', '#joy', '#joy', '#pleasantness', '#fear', '#fear', '#fear', '#fear', '#sadness', '#pleasantness', '#calmness', '#calmness', '#joy', '#calmness', '#joy', '#eagerness']
+Counter({'#fear': 13, '#joy': 10, '#eagerness': 5, '#calmness': 5, '#pleasantness': 5, '#sadness': 4, '#disgust': 2})
+
+​pessoa certa hora errada :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​inolvidable :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​eu me amo mais :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+​se essa vida fosse um filme :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+(não) era amor :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+LOKKO :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​recaída :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Chega :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

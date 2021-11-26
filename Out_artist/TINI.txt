@@ -1,0 +1,50 @@
+Consejo de Amor :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Diciembre :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Acércate :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Love Is Love :
+Sentics : [0.42684, 0.01564, -0.02382, 0.43656]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#pleasantness', '#sadness', '#disgust', '#sadness', '#pleasantness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#pleasantness', '#sadness', '#disgust', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#joy', '#joy', '#eagerness', '#sadness', '#anger', '#sadness', '#fear', '#pleasantness', '#pleasantness', '#calmness', '#eagerness', '#joy', '#eagerness', '#calmness', '#eagerness']
+Counter({'#joy': 16, '#eagerness': 14, '#calmness': 6, '#pleasantness': 5, '#sadness': 5, '#disgust': 2, '#anger': 1, '#fear': 1})
+
+Duele :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Flores :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Great Escape :
+Sentics : [0.3532777777777778, 0.24187037037037037, 0.08974074074074075, 0.0898888888888889]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#disgust', '#joy', '#eagerness', '#joy', '#calmness', '#anger', '#anger', '#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#joy', '#joy', '#pleasantness', '#joy', '#calmness', '#joy', '#eagerness']
+Counter({'#joy': 9, '#eagerness': 5, '#calmness': 3, '#anger': 2, '#sadness': 1, '#disgust': 1, '#pleasantness': 1})
+
+Te Olvidaré :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Suéltate El Pelo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Like That :
+Sentics : [0.3927391304347826, -0.1076304347826087, 0.041217391304347824, 0.4038695652173913]
+Sentiments : ['#calmness', '#calmness', '#joy', '#anger', '#sadness', '#anger', '#sadness', '#pleasantness', '#joy', '#eagerness', '#disgust', '#disgust', '#disgust', '#fear', '#pleasantness', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#disgust', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#fear']
+Counter({'#joy': 11, '#eagerness': 9, '#sadness': 4, '#disgust': 4, '#calmness': 2, '#anger': 2, '#pleasantness': 2, '#fear': 2})
+

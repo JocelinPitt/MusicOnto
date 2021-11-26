@@ -1,0 +1,50 @@
+J’fais mes affaires :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Déstabilisé :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Maman ne dort pas :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Souviens-toi :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+J’y pense :
+Sentics : [0.2833333333333333, -0.31, 0.0, 0.29733333333333334]
+Sentiments : ['#anger', '#eagerness']
+Counter({'#anger': 1, '#eagerness': 1})
+
+C’est la même :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Répondeur :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Elle :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Seuls :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Catalogués bandits :
+Sentics : [0.865, 0.0, -0.4155, 0.7949999999999999]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#pleasantness']
+Counter({'#joy': 1, '#eagerness': 1, '#sadness': 1, '#pleasantness': 1})
+

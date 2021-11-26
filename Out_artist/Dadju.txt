@@ -1,0 +1,50 @@
+Reine :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Bob Marley :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Django :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Par amour :
+Sentics : [0.0, 0.0, 0.0, 0.83]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Jaloux :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ma fierté :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Déjà Trouvé :
+Sentics : [0.72, 0.0, -0.922, 0.51]
+Sentiments : ['#sadness', '#pleasantness']
+Counter({'#sadness': 1, '#pleasantness': 1})
+
+Oublie-le :
+Sentics : [-0.4265, 0.0, 0.085, -0.411]
+Sentiments : ['#joy', '#eagerness', '#disgust', '#disgust', '#joy', '#eagerness', '#disgust', '#disgust']
+Counter({'#disgust': 4, '#joy': 2, '#eagerness': 2})
+
+J’ai dit non :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Seconde chance :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

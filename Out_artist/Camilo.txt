@@ -1,0 +1,50 @@
+Favorito :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+El Mismo Aire :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+No Te Vayas :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Vida de Rico :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La Difícil :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ropa Cara :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Medialuna :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Manos de Tijera :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Si Estoy Contigo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+KESI :
+Sentics : [0.693, -0.59, 0.0, 0.903]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 2, '#eagerness': 2})
+

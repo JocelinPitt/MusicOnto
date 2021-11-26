@@ -1,0 +1,50 @@
+Pepas :
+Sentics : [0.28600000000000003, 0.034999999999999996, 0.848, -0.22666666666666668]
+Sentiments : ['#joy', '#pleasantness', '#pleasantness', '#fear', '#pleasantness', '#pleasantness']
+Counter({'#pleasantness': 4, '#joy': 1, '#fear': 1})
+
+Passion Whine (Remix) :
+Sentics : [0.4357689393939394, 0.23995833333333333, 0.023295454545454543, 0.17525]
+Sentiments : ['#sadness', '#sadness', '#calmness', '#calmness', '#joy', '#eagerness', '#eagerness', '#eagerness', '#sadness', '#anger', '#calmness', '#calmness', '#joy', '#calmness', '#joy', '#calmness', '#joy', '#calmness', '#joy', '#joy', '#sadness', '#anger', '#calmness', '#eagerness', '#sadness', '#disgust', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#anger', '#disgust', '#fear', '#joy', '#eagerness', '#calmness', '#calmness', '#disgust', '#fear', '#joy', '#eagerness', '#sadness', '#pleasantness', '#sadness', '#anger', '#disgust', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#calmness', '#calmness', '#eagerness', '#sadness', '#disgust', '#joy', '#joy']
+Counter({'#joy': 16, '#calmness': 12, '#eagerness': 12, '#sadness': 9, '#disgust': 5, '#anger': 4, '#fear': 3, '#pleasantness': 1})
+
+La Tóxica :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mi Forma De Ser :
+Sentics : [0.4765, 0.23174999999999998, 0.1965, 0.25175]
+Sentiments : ['#sadness', '#disgust', '#pleasantness', '#fear', '#joy', '#calmness', '#joy', '#calmness']
+Counter({'#joy': 2, '#calmness': 2, '#sadness': 1, '#disgust': 1, '#pleasantness': 1, '#fear': 1})
+
+TrapXFicante (RIP Almighty) :
+Sentics : [0.2665625, 0.1776875, 0.056125, 0.123]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#calmness', '#sadness', '#sadness', '#joy', '#pleasantness', '#joy', '#calmness', '#joy', '#calmness']
+Counter({'#joy': 4, '#calmness': 4, '#sadness': 2, '#eagerness': 1, '#pleasantness': 1})
+
+Mi Forma de Ser (Mambo Version) :
+Sentics : [0.056, 0.105, 0.786, -0.68]
+Sentiments : ['#pleasantness', '#fear']
+Counter({'#pleasantness': 1, '#fear': 1})
+
+Don’t Let Go :
+Sentics : [0.30866666666666664, 0.309, 0.262, 0.012333333333333307]
+Sentiments : ['#pleasantness', '#fear', '#joy', '#calmness', '#joy', '#calmness']
+Counter({'#joy': 2, '#calmness': 2, '#pleasantness': 1, '#fear': 1})
+
+Chillax :
+Sentics : [0.20985, 0.008799999999999999, 0.1336, 0.1102]
+Sentiments : ['#joy', '#joy', '#pleasantness', '#eagerness', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#pleasantness', '#joy', '#eagerness']
+Counter({'#joy': 7, '#eagerness': 3, '#pleasantness': 2})
+
+Pure :
+Sentics : [0.4329, 0.2814, -0.009, 0.4311]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#calmness', '#joy', '#calmness', '#calmness', '#calmness', '#joy', '#eagerness']
+Counter({'#calmness': 5, '#joy': 4, '#eagerness': 3})
+
+Lejos De Aquí (Remix) :
+Sentics : [0.19755555555555557, 0.09133333333333332, 0.08211111111111111, 0.07966666666666666]
+Sentiments : ['#joy', '#pleasantness', '#joy', '#calmness', '#joy', '#calmness']
+Counter({'#joy': 3, '#calmness': 2, '#pleasantness': 1})
+

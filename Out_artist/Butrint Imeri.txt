@@ -1,0 +1,50 @@
+Kuku :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ma Chérie :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Hajt hajt :
+Sentics : [0.369, 0.3075, 0.05, -0.0955]
+Sentiments : ['#calmness', '#eagerness', '#sadness', '#anger']
+Counter({'#calmness': 1, '#eagerness': 1, '#sadness': 1, '#anger': 1})
+
+M’ke rrejt :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Kush? :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Alea :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Bella :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Xhanem :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Dujem :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Sugar (Remix) :
+Sentics : [0.2841770833333333, -0.0054583333333333315, -0.028541666666666667, 0.30845833333333333]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#eagerness', '#calmness', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#anger', '#calmness', '#eagerness', '#sadness', '#disgust', '#joy', '#eagerness', '#calmness', '#calmness', '#pleasantness', '#fear', '#joy', '#eagerness']
+Counter({'#eagerness': 10, '#joy': 8, '#calmness': 5, '#anger': 1, '#sadness': 1, '#disgust': 1, '#pleasantness': 1, '#fear': 1})
+

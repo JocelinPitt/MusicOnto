@@ -1,0 +1,50 @@
+PERDONAMI :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+IL CIELO NELLA STANZA :
+Sentics : [0.32833333333333337, 0.0, 0.41233333333333333, 0.7085]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#eagerness', '#joy', '#joy', '#pleasantness', '#eagerness']
+Counter({'#joy': 4, '#eagerness': 4, '#pleasantness': 2})
+
+LUNEDÌ :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+1984 :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+CHARLES MANSON (BUON NATALE2) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+90MIN :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Title? :
+Sentics : [0.18, 0.0, 0.14, 0.0]
+Sentiments : ['#sadness', '#disgust']
+Counter({'#sadness': 1, '#disgust': 1})
+
+L’alba :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+STAI ZITTO :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Buon N***** Freestyle :
+Sentics : [0.5204666666666666, 0.32006666666666667, -0.013999999999999999, 0.2764]
+Sentiments : ['#joy', '#calmness', '#joy', '#joy', '#joy', '#joy', '#joy', '#calmness', '#calmness', '#eagerness', '#joy', '#calmness', '#joy', '#joy', '#calmness', '#eagerness']
+Counter({'#joy': 9, '#calmness': 5, '#eagerness': 2})
+

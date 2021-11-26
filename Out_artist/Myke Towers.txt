@@ -1,0 +1,50 @@
+La Playa :
+Sentics : [0.426, 0.04666666666666667, -0.015, 0.021333333333333333]
+Sentiments : ['#joy', '#joy', '#calmness', '#eagerness', '#joy', '#joy']
+Counter({'#joy': 4, '#calmness': 1, '#eagerness': 1})
+
+Piensan :
+Sentics : [0.0, 0.0, 0.035, 0.0]
+Sentiments : ['#disgust', '#disgust']
+Counter({'#disgust': 2})
+
+Girl :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Gan-Ga (Young Kingz Version) :
+Sentics : [0.17275, 0.11083333333333334, -0.035625, 0.050666666666666665]
+Sentiments : ['#joy', '#joy', '#joy', '#joy', '#calmness', '#eagerness', '#calmness', '#eagerness', '#joy', '#joy', '#calmness', '#eagerness', '#calmness', '#eagerness', '#joy', '#joy', '#joy', '#joy', '#calmness', '#eagerness']
+Counter({'#joy': 10, '#calmness': 5, '#eagerness': 5})
+
+Diosa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tú :
+Sentics : [0.4592, 0.018666666666666668, 0.0995, 0.10443333333333334]
+Sentiments : ['#pleasantness', '#eagerness', '#disgust', '#fear', '#joy', '#eagerness', '#joy', '#pleasantness', '#joy', '#joy', '#joy', '#joy', '#joy', '#joy', '#calmness', '#eagerness']
+Counter({'#joy': 8, '#eagerness': 3, '#pleasantness': 2, '#disgust': 1, '#fear': 1, '#calmness': 1})
+
+MIB :
+Sentics : [0.27599999999999997, 0.04666666666666667, -0.015, 0.021333333333333333]
+Sentiments : ['#joy', '#joy', '#joy', '#joy', '#calmness', '#eagerness']
+Counter({'#joy': 4, '#calmness': 1, '#eagerness': 1})
+
+PIN PIN :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Relación Rota :
+Sentics : [0.435, 0.6335, 0.0, 0.3585]
+Sentiments : ['#calmness', '#calmness', '#joy', '#calmness']
+Counter({'#calmness': 3, '#joy': 1})
+
+Mi Ex :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

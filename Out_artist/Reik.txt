@@ -1,0 +1,50 @@
+Me Niego :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Ya Me Enteré :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Creo en Ti :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Noviembre Sin Ti :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Yo Quisiera :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Qué Gano Olvidándote :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Qué Gano Olvidándote (Versión Urbana) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Pero Te Conocí :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ya Me Enteré (Urban Version) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Ráptame :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

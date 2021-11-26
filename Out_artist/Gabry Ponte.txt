@@ -1,0 +1,50 @@
+Che Ne Sanno I 2000 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Quando arrivo io :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tu sei :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Vivi Nell’ Aria - Manian Video Mix :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La Danza Delle Streghe :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Figli Di Pitagora :
+Sentics : [0.7145, -0.36, 0.0, 0.7885]
+Sentiments : ['#joy', '#eagerness', '#anger', '#eagerness']
+Counter({'#eagerness': 2, '#joy': 1, '#anger': 1})
+
+Geordie :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+In The Town :
+Sentics : [0.43336956521739134, 0.05056521739130435, 0.08129710144927536, 0.2442608695652174]
+Sentiments : ['#sadness', '#fear', '#anger', '#eagerness', '#disgust', '#disgust', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#calmness', '#joy', '#calmness', '#pleasantness', '#fear', '#joy', '#eagerness', '#joy', '#anger', '#joy', '#pleasantness', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#joy', '#sadness', '#disgust', '#calmness', '#eagerness', '#joy', '#joy', '#sadness', '#anger', '#joy', '#anger']
+Counter({'#joy': 16, '#eagerness': 7, '#sadness': 5, '#fear': 4, '#anger': 4, '#disgust': 3, '#calmness': 3, '#pleasantness': 2})
+
+Time to Rock :
+Sentics : [0.6820454545454545, 0.04318181818181818, 0.0, 0.6231818181818182]
+Sentiments : ['#joy', '#eagerness', '#joy', '#calmness', '#joy', '#eagerness', '#joy', '#joy', '#sadness', '#anger', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#eagerness', '#eagerness']
+Counter({'#joy': 11, '#eagerness': 10, '#calmness': 1, '#sadness': 1, '#anger': 1})
+
+La fine del mondo :
+Sentics : [0.045, 0.11929999999999999, -0.011, 0.1222]
+Sentiments : ['#joy', '#joy', '#anger', '#anger', '#joy', '#eagerness', '#calmness', '#eagerness']
+Counter({'#joy': 3, '#anger': 2, '#eagerness': 2, '#calmness': 1})
+

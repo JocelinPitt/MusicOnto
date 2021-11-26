@@ -1,0 +1,50 @@
+DJ No Pare (Remix) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+No Quiero Amarte :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Pendiente de Usted :
+Sentics : [0.40675, 0.0, 0.497, 0.9027499999999999]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#eagerness']
+Counter({'#eagerness': 3, '#joy': 2, '#pleasantness': 1})
+
+Egoísta :
+Sentics : [0.0, 0.0, 0.497, 0.475]
+Sentiments : ['#pleasantness', '#eagerness']
+Counter({'#pleasantness': 1, '#eagerness': 1})
+
+Monstruo :
+Sentics : [0.0, 0.0, 0.994, 0.95]
+Sentiments : ['#pleasantness', '#eagerness']
+Counter({'#pleasantness': 1, '#eagerness': 1})
+
+Ponte Pa’ Mí :
+Sentics : [0.0, 0.0, 0.994, 0.95]
+Sentiments : ['#pleasantness', '#eagerness']
+Counter({'#pleasantness': 1, '#eagerness': 1})
+
+Orgullo (Unplugged) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ropa Interior :
+Sentics : [0.3945, 0.0, 0.948, 0.475]
+Sentiments : ['#pleasantness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#pleasantness': 2, '#eagerness': 1, '#joy': 1})
+
+Jeans :
+Sentics : [0.30033333333333334, 0.0, 0.12366666666666666, 0.0]
+Sentiments : ['#joy', '#pleasantness', '#joy', '#joy']
+Counter({'#joy': 3, '#pleasantness': 1})
+
+Hora Loca :
+Sentics : [0.0, 0.0, 0.994, 0.95]
+Sentiments : ['#pleasantness', '#eagerness']
+Counter({'#pleasantness': 1, '#eagerness': 1})
+

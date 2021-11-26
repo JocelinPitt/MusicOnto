@@ -1,0 +1,50 @@
+Fixette :
+Sentics : [0.0, 0.225, 0.3635, 0.4285]
+Sentiments : ['#pleasantness', '#eagerness', '#anger', '#anger']
+Counter({'#anger': 2, '#pleasantness': 1, '#eagerness': 1})
+
+Raspoutine :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Flocko :
+Sentics : [0.8664999999999999, -0.052000000000000005, 0.0, 0.7746]
+Sentiments : ['#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness']
+Counter({'#joy': 4, '#eagerness': 4, '#sadness': 2, '#fear': 2})
+
+Galerie :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+C’est la vie :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ronaldo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Double Dash :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+S.P.S :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+LG :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+123 Soleil :
+Sentics : [0.0, 0.0, 0.727, 0.857]
+Sentiments : ['#pleasantness', '#eagerness']
+Counter({'#pleasantness': 1, '#eagerness': 1})
+

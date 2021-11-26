@@ -1,0 +1,50 @@
+Conejita :
+Sentics : [0.0, 0.0, 0.0, 0.08]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Té De Campana :
+Sentics : [0.3006666666666667, 0.0, 0.24733333333333332, 0.0]
+Sentiments : ['#joy', '#pleasantness']
+Counter({'#joy': 1, '#pleasantness': 1})
+
+Prende Un Porro :
+Sentics : [0.0, 0.0, 0.0, 0.08]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Dime Que :
+Sentics : [0.0, 0.0, 0.0, 0.08]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Con El Humo :
+Sentics : [0.0, 0.0, 0.0, 0.04]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Donde Tú Estés :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Los Palos :
+Sentics : [0.0, 0.0, 0.0, 0.04]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Party de Gangster :
+Sentics : [0.0, 0.0, 0.0, 0.08]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Me La Pide :
+Sentics : [0.3635, 0.0, 0.0, 0.4455]
+Sentiments : ['#joy', '#eagerness', '#fear', '#fear']
+Counter({'#fear': 2, '#joy': 1, '#eagerness': 1})
+
+Usted Se Fue :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

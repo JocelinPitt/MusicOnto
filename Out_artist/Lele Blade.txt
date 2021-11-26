@@ -1,0 +1,50 @@
+Sosa :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Loco :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Un Attimo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Friends :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Extendo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Ye ye :
+Sentics : [0.027499999999999997, -0.2055, 0.0, 0.06325]
+Sentiments : ['#joy', '#calmness', '#sadness', '#disgust']
+Counter({'#joy': 1, '#calmness': 1, '#sadness': 1, '#disgust': 1})
+
+Bentley :
+Sentics : [0.45, 0.0, 0.0, 0.4]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Vincere :
+Sentics : [0.0, 0.0, 0.4685, 0.455]
+Sentiments : ['#pleasantness', '#eagerness']
+Counter({'#pleasantness': 1, '#eagerness': 1})
+
+Pienzec Buon :
+Sentics : [0.732, 0.4446, 0.0, 0.7026]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 4, '#eagerness': 4})
+
+Tel Aviv :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

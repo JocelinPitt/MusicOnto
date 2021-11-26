@@ -1,0 +1,45 @@
+Because You Move Me :
+Sentics : [0.3666666666666667, 0.0, -0.17133333333333334, 0.2546666666666667]
+Sentiments : ['#joy', '#joy', '#eagerness', '#eagerness', '#sadness', '#fear']
+Counter({'#joy': 2, '#eagerness': 2, '#sadness': 1, '#fear': 1})
+
+Soon You’ll Be Gone :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Need You :
+Sentics : [0.3351818181818182, 0.16754545454545455, 0.06636363636363636, 0.21472727272727274]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#calmness', '#sadness', '#disgust', '#calmness', '#calmness', '#sadness', '#disgust', '#joy', '#eagerness', '#calmness', '#calmness', '#calmness', '#calmness', '#calmness', '#calmness', '#calmness', '#calmness', '#sadness', '#disgust', '#calmness', '#calmness', '#sadness', '#disgust']
+Counter({'#calmness': 14, '#sadness': 4, '#disgust': 4, '#joy': 2, '#eagerness': 2})
+
+Lost :
+Sentics : [0.31764285714285717, -0.0028571428571428597, 0.3591428571428571, 0.273]
+Sentiments : ['#pleasantness', '#eagerness', '#pleasantness', '#fear', '#joy', '#pleasantness', '#pleasantness', '#fear', '#sadness', '#disgust', '#joy', '#pleasantness', '#calmness', '#calmness', '#joy', '#eagerness', '#pleasantness', '#fear', '#joy', '#pleasantness', '#calmness', '#calmness', '#joy', '#eagerness']
+Counter({'#pleasantness': 7, '#joy': 5, '#calmness': 4, '#eagerness': 3, '#fear': 3, '#sadness': 1, '#disgust': 1})
+
+Vanishing :
+Sentics : [0.4789259259259259, 0.2487222222222222, 0.17566666666666667, 0.036555555555555556]
+Sentiments : ['#anger', '#eagerness', '#disgust', '#disgust', '#sadness', '#sadness', '#joy', '#eagerness', '#calmness', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#fear', '#fear', '#sadness', '#pleasantness', '#sadness', '#anger', '#joy', '#pleasantness', '#sadness', '#anger', '#anger', '#eagerness', '#disgust', '#disgust', '#joy', '#pleasantness', '#joy', '#joy', '#joy', '#eagerness']
+Counter({'#joy': 7, '#eagerness': 6, '#sadness': 6, '#anger': 4, '#disgust': 4, '#fear': 3, '#pleasantness': 3, '#calmness': 1})
+
+Close Your Eyes :
+Sentics : [0.3343611111111111, 0.06125, 0.19106944444444446, 0.1564861111111111]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#disgust', '#pleasantness', '#eagerness', '#joy', '#pleasantness', '#joy', '#eagerness', '#pleasantness', '#eagerness', '#joy', '#pleasantness', '#disgust', '#fear', '#disgust', '#disgust', '#calmness', '#eagerness', '#joy', '#pleasantness', '#calmness', '#eagerness', '#pleasantness', '#fear', '#sadness', '#disgust', '#joy', '#joy', '#joy', '#calmness', '#pleasantness', '#eagerness', '#joy', '#pleasantness', '#joy', '#calmness', '#joy', '#calmness', '#joy', '#eagerness']
+Counter({'#joy': 12, '#eagerness': 8, '#pleasantness': 8, '#disgust': 5, '#calmness': 5, '#sadness': 2, '#fear': 2})
+
+Nothing Without You (Tinlicker Rework) :
+Sentics : [0.559, 0.33566666666666667, -0.043333333333333335, 0.3353333333333333]
+Sentiments : ['#sadness', '#anger', '#calmness', '#eagerness', '#joy', '#eagerness']
+Counter({'#eagerness': 2, '#sadness': 1, '#anger': 1, '#calmness': 1, '#joy': 1})
+
+Half Moon :
+Sentics : [0.33141733333333334, -0.025042, 0.07417866666666667, 0.3400593333333333]
+Sentiments : ['#anger', '#eagerness', '#sadness', '#disgust', '#calmness', '#calmness', '#sadness', '#pleasantness', '#sadness', '#fear', '#joy', '#eagerness', '#disgust', '#fear', '#calmness', '#eagerness', '#sadness', '#fear', '#joy', '#joy', '#pleasantness', '#eagerness', '#joy', '#joy', '#sadness', '#fear', '#pleasantness', '#fear', '#sadness', '#disgust', '#joy', '#eagerness', '#eagerness', '#eagerness', '#joy', '#calmness', '#joy', '#eagerness', '#fear', '#fear', '#sadness', '#fear', '#joy', '#eagerness', '#fear', '#fear', '#joy', '#anger', '#joy', '#anger', '#joy', '#pleasantness', '#sadness', '#pleasantness', '#disgust', '#fear', '#joy', '#eagerness', '#disgust', '#disgust', '#joy', '#eagerness', '#pleasantness', '#pleasantness', '#pleasantness', '#fear', '#joy', '#eagerness', '#sadness', '#disgust', '#pleasantness', '#eagerness', '#joy', '#joy', '#anger', '#eagerness', '#sadness', '#disgust', '#joy', '#anger', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#sadness', '#pleasantness']
+Counter({'#joy': 22, '#eagerness': 16, '#fear': 12, '#sadness': 11, '#pleasantness': 10, '#disgust': 8, '#anger': 5, '#calmness': 4})
+
+Nothing Without You :
+Sentics : [0.559, 0.27999999999999997, 0.0, 0.254]
+Sentiments : ['#sadness', '#anger', '#joy', '#eagerness']
+Counter({'#sadness': 1, '#anger': 1, '#joy': 1, '#eagerness': 1})
+

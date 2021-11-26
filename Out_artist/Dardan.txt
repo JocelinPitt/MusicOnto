@@ -1,0 +1,50 @@
+Wer macht Para? :
+Sentics : [0.04, -0.014444444444444446, -0.005555555555555556, 0.06777777777777778]
+Sentiments : ['#sadness', '#fear', '#sadness', '#fear', '#fear', '#fear']
+Counter({'#fear': 4, '#sadness': 2})
+
+Facetime :
+Sentics : [0.195, 0.035, -0.2235, 0.28625]
+Sentiments : ['#pleasantness', '#fear', '#fear', '#fear', '#calmness', '#eagerness']
+Counter({'#fear': 3, '#pleasantness': 1, '#calmness': 1, '#eagerness': 1})
+
+Mister Dardy :
+Sentics : [0.5335555555555556, 0.3297777777777778, -0.07088888888888889, 0.11555555555555555]
+Sentiments : ['#joy', '#calmness', '#sadness', '#fear', '#sadness', '#pleasantness', '#joy', '#calmness', '#sadness', '#fear']
+Counter({'#sadness': 3, '#joy': 2, '#calmness': 2, '#fear': 2, '#pleasantness': 1})
+
+Telefon :
+Sentics : [0.17583333333333334, 0.14266666666666666, 0.1785, 0.22233333333333333]
+Sentiments : ['#pleasantness', '#fear', '#calmness', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#pleasantness', '#fear', '#disgust', '#fear']
+Counter({'#fear': 3, '#joy': 3, '#pleasantness': 2, '#eagerness': 2, '#calmness': 1, '#disgust': 1})
+
+Airmax gegen Kopf :
+Sentics : [0.3558, 0.05600000000000001, -0.009999999999999976, 0.4028]
+Sentiments : ['#sadness', '#pleasantness', '#pleasantness', '#fear', '#pleasantness', '#fear', '#calmness', '#eagerness', '#eagerness', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#fear', '#calmness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#pleasantness': 5, '#eagerness': 5, '#fear': 3, '#calmness': 2, '#joy': 2, '#sadness': 1})
+
+​cOcO MAmA :
+Sentics : [0.62, 0.0, 0.0, 0.59]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+​gENAuSo :
+Sentics : [0.08, 0.0, 0.05, 0.06]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+​a miLLy :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Piccos :
+Sentics : [0.1105, 0.0, 0.0, 0.02]
+Sentiments : ['#fear', '#fear', '#joy', '#joy']
+Counter({'#fear': 2, '#joy': 2})
+
+​kAdaLe :
+Sentics : [0.484, 0.097, 0.0, 0.1205]
+Sentiments : ['#calmness', '#eagerness', '#joy', '#joy']
+Counter({'#joy': 2, '#calmness': 1, '#eagerness': 1})
+

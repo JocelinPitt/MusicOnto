@@ -1,0 +1,50 @@
+Kinder der Straße :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Leben :
+Sentics : [0.0, 0.255, -0.13, 0.226]
+Sentiments : ['#calmness', '#eagerness']
+Counter({'#calmness': 1, '#eagerness': 1})
+
+Dealer :
+Sentics : [0.5092083333333334, -0.065, 0.200375, 0.16904166666666667]
+Sentiments : ['#sadness', '#pleasantness', '#sadness', '#fear', '#pleasantness', '#eagerness', '#sadness', '#disgust', '#sadness', '#disgust', '#joy', '#eagerness', '#sadness', '#disgust', '#sadness', '#disgust']
+Counter({'#sadness': 6, '#disgust': 4, '#pleasantness': 2, '#eagerness': 2, '#fear': 1, '#joy': 1})
+
+Alles fürs Geschäft :
+Sentics : [0.496, 0.0, 0.373, 0.486]
+Sentiments : ['#sadness', '#fear', '#joy', '#eagerness']
+Counter({'#sadness': 1, '#fear': 1, '#joy': 1, '#eagerness': 1})
+
+Auf der Jagd :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Dis Is :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Omertà :
+Sentics : [0.19, 0.0, 0.17, 0.15]
+Sentiments : ['#sadness', '#disgust']
+Counter({'#sadness': 1, '#disgust': 1})
+
+Deutsche & Ausländer :
+Sentics : [-0.26666666666666666, 0.0, 0.013666666666666669, -0.4663333333333333]
+Sentiments : ['#sadness', '#pleasantness', '#pleasantness', '#eagerness', '#sadness', '#disgust']
+Counter({'#sadness': 2, '#pleasantness': 2, '#eagerness': 1, '#disgust': 1})
+
+Dreh die Zeit um :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+NORMALITÄT :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

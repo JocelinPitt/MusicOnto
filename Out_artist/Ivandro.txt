@@ -1,0 +1,50 @@
+Moça :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Porta :
+Sentics : [0.88, 0.79, -0.721, 0.97]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+Vou Seguir :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Carta :
+Sentics : [0.25566666666666665, 0.042666666666666665, 0.042833333333333334, 0.09666666666666666]
+Sentiments : ['#joy', '#pleasantness', '#calmness', '#calmness', '#sadness', '#pleasantness', '#calmness', '#eagerness']
+Counter({'#calmness': 3, '#pleasantness': 2, '#joy': 1, '#sadness': 1, '#eagerness': 1})
+
+Por ti :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Não é Fácil :
+Sentics : [0.45, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+Mais Velho :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Para Mim :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Honey :
+Sentics : [0.6805, -0.5775, 0.0, 0.51325]
+Sentiments : ['#joy', '#anger', '#joy', '#anger', '#joy', '#anger', '#fear', '#fear', '#sadness', '#disgust']
+Counter({'#joy': 3, '#anger': 3, '#fear': 2, '#sadness': 1, '#disgust': 1})
+
+Orgulho :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

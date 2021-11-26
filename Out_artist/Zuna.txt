@@ -1,0 +1,50 @@
+Nummer 1 :
+Sentics : [0.26466666666666666, 0.06433333333333334, 0.23399999999999999, 0.3343333333333333]
+Sentiments : ['#fear', '#fear', '#calmness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#fear': 2, '#calmness': 1, '#eagerness': 1, '#joy': 1, '#pleasantness': 1})
+
+Hol mir dein Cousin :
+Sentics : [0.37, 0.0, 0.405, 0.225]
+Sentiments : ['#sadness', '#disgust', '#eagerness', '#eagerness']
+Counter({'#eagerness': 2, '#sadness': 1, '#disgust': 1})
+
+Baby :
+Sentics : [0.9, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+Kartell :
+Sentics : [0.2866666666666667, 0.0, -0.24833333333333332, 0.5933333333333333]
+Sentiments : ['#sadness', '#fear', '#fear', '#fear']
+Counter({'#fear': 3, '#sadness': 1})
+
+Wieso? :
+Sentics : [-0.06866666666666665, 0.0, 0.03733333333333333, 0.27666666666666667]
+Sentiments : ['#joy', '#pleasantness', '#fear', '#fear', '#joy', '#pleasantness']
+Counter({'#joy': 2, '#pleasantness': 2, '#fear': 2})
+
+Cazal :
+Sentics : [0.4051666666666667, -0.01, -0.18633333333333332, 0.2623333333333333]
+Sentiments : ['#pleasantness', '#fear', '#joy', '#eagerness', '#pleasantness', '#fear', '#joy', '#pleasantness']
+Counter({'#pleasantness': 3, '#fear': 2, '#joy': 2, '#eagerness': 1})
+
+KMN :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Original :
+Sentics : [0.0, 0.0, 0.0, 0.3345]
+Sentiments : ['#eagerness', '#eagerness', '#eagerness', '#eagerness', '#eagerness', '#eagerness']
+Counter({'#eagerness': 6})
+
+Ayé :
+Sentics : [0.496, 0.0, 0.373, 0.486]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear']
+Counter({'#joy': 1, '#eagerness': 1, '#sadness': 1, '#fear': 1})
+
+Guck Mama :
+Sentics : [0.0, 0.0, 0.3203333333333333, 0.26466666666666666]
+Sentiments : ['#pleasantness', '#fear', '#pleasantness', '#fear', '#pleasantness', '#eagerness']
+Counter({'#pleasantness': 3, '#fear': 2, '#eagerness': 1})
+

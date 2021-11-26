@@ -1,0 +1,50 @@
+Apnea :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Aeroplanini Di Carta :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Milano  bachata :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mai più :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Oh Mama :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+00 :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Solletico :
+Sentics : [0.0, 0.415, 0.0, 0.0]
+Sentiments : ['#anger', '#anger']
+Counter({'#anger': 2})
+
+Solo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+180 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Origami :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
