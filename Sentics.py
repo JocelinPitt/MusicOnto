@@ -5,6 +5,7 @@ import senticnet6 as sentic  # A module for sentiment analysis
 import senticnet6_polarity as polarity
 
 from sense2vec import Sense2Vec
+from __init__ import s2v
 
 # English language loaded for reading the text files with spacy.
 nlp = spacy.load("en_core_web_sm")
@@ -14,8 +15,12 @@ nlp = spacy.load("en_core_web_sm")
 
 class Sentics:
 
-    def __init__(self, text):
+    def __init__(self, text, most_similar=bool()):
         self.text = text
+        if most_similar != None:
+            self.most_similar = most_similar
+        else:
+            self.most_similar = False
 
     # Defining get_tokens function
     def Tokens(self):
@@ -43,7 +48,7 @@ class Sentics:
 
     # this function remove non-semantics elements from the phrase and reformat the doc variable from nlp() to in a
     # more usefull shape
-    def Assemble(self, doc , childs):
+    def Assemble(self, doc, childs):
 
         """ Assemble is a function that creates a list of children whose dependency is excluded
         of the list defined in the function (like punctuations and determinations)
@@ -67,7 +72,6 @@ class Sentics:
             if to_get != []:
                 assemble.append(to_get)
         return assemble
-
 
     def Ignore_prep(self, linked):
         """ Ignore_prep is a function that reformats the new doc variables and remove prep elements as those carries over their sementicals
@@ -108,8 +112,8 @@ class Sentics:
     # Senticnet dict
     def link_with_child(self, root, list_of_childs):
         """ link_with_child is a function that uses ``check_combinaison``function in order to iterate over each child
-        of a root token to create a list meaningful combinations of roots and their children. It also returns the sentiment
-        value of each combination found in ``Senticnet``dataset.
+        of a root token to create a list meaningful combinations of roots and their children. It also returns the
+        sentiment value of each combination found in ``Senticnet``dataset.
 
         Args:
             root: a token that other tokens are dependent to it.
@@ -159,20 +163,21 @@ class Sentics:
         if not (check_sent or check_pol):
             combine = str(child[0]) + '_' + str(root)
             check_sent, check_pol = self.check_dict(combine)
-            if not (check_sent or check_pol):
-                Ms_root = self.most_similar(root=root)
-                combine = str(Ms_root) + '_' + str(child[0])
-                check_sent, check_pol = self.check_dict(combine)
+            if self.most_similar:
                 if not (check_sent or check_pol):
-                    combine = str(child[0]) + '_' + str(Ms_root)
+                    Ms_root = self.most_similar(root=root)
+                    combine = str(Ms_root) + '_' + str(child[0])
                     check_sent, check_pol = self.check_dict(combine)
                     if not (check_sent or check_pol):
-                        Ms_childs = self.most_similar(child=child)
-                        combine = str(Ms_root) + '_' + str(Ms_childs)
+                        combine = str(child[0]) + '_' + str(Ms_root)
                         check_sent, check_pol = self.check_dict(combine)
                         if not (check_sent or check_pol):
-                            combine = str(Ms_childs) + '_' + str(Ms_root)
+                            Ms_childs = self.most_similar(child=child)
+                            combine = str(Ms_root) + '_' + str(Ms_childs)
                             check_sent, check_pol = self.check_dict(combine)
+                            if not (check_sent or check_pol):
+                                combine = str(Ms_childs) + '_' + str(Ms_root)
+                                check_sent, check_pol = self.check_dict(combine)
 
         # If something is found the values from the senticnet dict will be passed, otherwise it will pass the null
         # values (0,0,0,0) and polarity = 1. If found, it will also get the major sentiments relatives to the
@@ -180,10 +185,10 @@ class Sentics:
         if check_sent:
             match = True
             sentics.append(sentic.senticnet[combine][:4])
-            for elem in sentic.senticnet[root][4:6]:
+            for elem in sentic.senticnet[combine][4:6]:
                 sentiments.append(elem)
         else:
-            sentics.append([0,0,0,0])
+            sentics.append([0, 0, 0, 0])
         if check_pol:
             match = True
             polar = polarity.senticnet6[combine]
@@ -245,7 +250,7 @@ class Sentics:
             for elem in sentic.senticnet[root][4:6]:
                 sentiments.append(elem)
         else:
-            sentics.append([0,0,0,0])
+            sentics.append([0, 0, 0, 0])
         if check_pol:
             match = True
             polar = polarity.senticnet6[root]
@@ -376,14 +381,14 @@ class Sentics:
                 for child in conj_children:
                     conj_child_checks, match, sentiments = self.raw_sentics(child[0])
                     if match:
-                        if (conj_child_checks != [[[0,0,0,0]], 1]) and (child[0] not in sentics.keys()):
+                        if (conj_child_checks != [[[0, 0, 0, 0]], 1]) and (child[0] not in sentics.keys()):
                             sentics[child[0]] = [check * IsNeg for check in conj_child_checks]
                             Meta_match = True
                             for senti in sentiments:
                                 all_sentiments.append(senti)
                 if not Meta_match:
                     conj_checks, match, sentiments = self.raw_sentics(conj_value)
-                    if (conj_checks != [[[0,0,0,0]], 1]) and (conj_value not in sentics.keys()):
+                    if (conj_checks != [[[0, 0, 0, 0]], 1]) and (conj_value not in sentics.keys()):
                         sentics[conj_value] = [check * IsNeg for check in conj_checks]
                         for senti in sentiments:
                             all_sentiments.append(senti)
@@ -396,19 +401,19 @@ class Sentics:
                 Root_checks, match, sentiments = self.link_with_child(Root_value, Root_chilrdren)
                 if not match:
                     Root_checks, match, sentiments = self.raw_sentics(Root_value)
-                    if (Root_checks != [[[0,0,0,0]], 1]) and (Root_value not in sentics.keys()):
+                    if (Root_checks != [[[0, 0, 0, 0]], 1]) and (Root_value not in sentics.keys()):
                         sentics[Root_value] = [check * IsNeg for check in Root_checks]
                         for senti in sentiments:
                             all_sentiments.append(senti)
                     for child in Root_chilrdren:
                         child_checks, match, sentiments = self.raw_sentics(child[0])
-                        if (child_checks != [[[0,0,0,0]], 1]) and (child[0] not in sentics.keys()):
+                        if (child_checks != [[[0, 0, 0, 0]], 1]) and (child[0] not in sentics.keys()):
                             sentics[child[0]] = [check * IsNeg for check in child_checks]
                             for senti in sentiments:
                                 all_sentiments.append(senti)
                 else:
                     for child, checks in zip(Root_chilrdren, Root_checks):
-                        if (checks != [[[0,0,0,0]], 1]) and (child[0] not in sentics.keys()):
+                        if (checks != [[[0, 0, 0, 0]], 1]) and (child[0] not in sentics.keys()):
                             sentics[child[0]] = [check * IsNeg for check in checks]
                             for senti in sentiments:
                                 all_sentiments.append(senti)
