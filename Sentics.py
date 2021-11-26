@@ -323,12 +323,13 @@ class Sentics:
     # This function will get all the sentics values we found and calculate the meanings of those.
     # This procedure may be improve as it's not proven that the mean value as any real utilities.
     def compute_all_sentics(self, dic):
-        """ This function will calculate the overall sentiment of a sentence by using the mean calculation.
+        """ compute_all_sentics This function will calculate the overall sentiment of a sentence by using the mean calculation.
 
         Args:
             dic: All of the necessary tokens of the sentence
 
         Returns:
+            The average of sentiments of tokens (and combinations) for a sentence.
 
         """
         sent1 = sent2 = sent3 = sent4 = int(0)

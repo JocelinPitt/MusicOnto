@@ -93,3 +93,36 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
             match: bool: True if successful, False otherwise.
             sentiments: A list of two first sentiments  for the combinations found in Senticnet dataset
 
+* `Is_neg`: is a function that will reverse the senticnet value when the child has a neg dependency.
+
+        Args:
+            list_of_child: A list of all childs of a root
+
+        Returns:
+            int: -1,1
+
+* `most_similar`: is a function that uses the Sense2Vec module in order to find similar words. For the
+        simplicity of the work, we assumed that the word that we are searching for its similar meaning is either
+        noun or verb.
+
+
+        Args:
+            child: the child of a token root.
+            root: The root token
+
+        Returns:
+            similar words
+
+* `Compute_all_sentics`: This function will calculate the overall sentiment of a sentence by using the mean calculation.
+
+        Args:
+            dic: All of the necessary tokens of the sentence
+
+        Returns:
+            The average of sentiments of tokens (and combinations) for a sentence.
+
+* `main`: is a function that analyses a sentence as an input and calculates its
+        overall sentiment.
+
+        Returns:
+            The overall sentiment of the sentence
