@@ -1,6 +1,10 @@
-# Welcome to MkDocs
+# Welcome to MusicOnto Project
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+MusicOnto is a class project where the top 50 English songs in europeen countries are extracted in order to analyse the overall sentiment of each song using ``Senticnet-6`` dataset.
+
+Defining the "Sentics Class" for all the  sentic rules found at "https://sentic.net/senticnet-6.pdf"
+
+This page is created by MkDocs.
 
 ## Commands
 
@@ -17,9 +21,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         ...       # Other markdown pages, images and other files.
 
 
-
+This project contains two python files. The first one is Sentics.py that uses modules & a defined class for sentiment analysis of a sentence.
 ## Functions
 
+The Functions 
 * `Tokens`: is a function for nlp analysis  
 
         Returns:
