@@ -13,18 +13,15 @@ This page is created by MkDocs.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
 
 
 This project contains two python files. The first one is Sentics.py that uses modules & a defined class for sentiment analysis of a sentence.
 ## Functions
 
-The Functions 
+#### The Functions of sentics.py are as follows:
+For every function, Arg is the input of that function and Return is the output of that function.
+
 * `Tokens`: is a function for nlp analysis  
 
         Returns:
@@ -131,3 +128,5 @@ The Functions
 
         Returns:
             The overall sentiment of the sentence
+
+## Example
