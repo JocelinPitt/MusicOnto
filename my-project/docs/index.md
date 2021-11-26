@@ -15,3 +15,14 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+
+## Functions
+
+* `Tokens` :  
+
+        Returns:
+            (1)children of each root,
+            (2)lemma & dependency of each child,
+            (3)ignores the tokens with preposition dependency
