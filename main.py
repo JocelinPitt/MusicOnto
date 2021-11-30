@@ -1,6 +1,7 @@
 import Sentics
 import re
 import os
+import owlready2 as owl
 from collections import Counter
 import statistics as stat
 import tqdm
@@ -18,12 +19,12 @@ class Songs:
     def Cut_song(self, lines):
         """
 
-                Args:
-                    lines:
+        Args:
+            lines:
 
-                Returns:
+        Returns:
 
-                """
+        """
         out = dict()
         for line in lines:
             if len(line) == 0:
@@ -137,6 +138,8 @@ class Songs:
         dic = self.get_all_file(self.path)
         artist_sentics = list()
         indice = 0
+        onto = owl.get_ontology('MusicOnto.owl')
+        onto.load()
         for artist in tqdm.tqdm(dic):
             print("Start with " + str(artist))
             Song_sentics = list()
@@ -160,6 +163,12 @@ class Songs:
             artist_sentics.append([artist, Song_sentics])
             with open("Out_artist/" + str(artist) + ".txt", encoding="utf-8", mode='a') as f:
                 for sentic, sentiments, songs in zip(Song_sentics, Songs_sentiments, dic[artist]):
+                    onto = Song(str(songs),
+                        introspection=str(sentiments[0]),
+                        temper=str(sentiments[1]),
+                        attitude=str(sentiments[2]),
+                        sensitivity=str(sentiments[3]),
+                    )
                     Count = Counter(sentiments)
                     f.write(str(songs) + " :\n" +
                             "Sentics : " + str(sentic) + "\n" +
@@ -170,4 +179,4 @@ class Songs:
                   str(indice))
             indice += 1
 
-        print()
+        onto.save('UpdatedOnto.owl')
