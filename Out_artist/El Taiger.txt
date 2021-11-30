@@ -1,0 +1,15 @@
+Tú No Está Ready Pa’ Mí* :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Coronamos :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Supérate (Remix) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,50 @@
+Shababs botten :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Airwaves :
+Sentics : [0.19555555555555557, 0.1304722222222222, 0.00697222222222223, 0.06627777777777778]
+Sentiments : ['#joy', '#eagerness', '#pleasantness', '#fear', '#sadness', '#disgust', '#joy', '#calmness', '#sadness', '#fear', '#calmness', '#eagerness', '#sadness', '#pleasantness', '#pleasantness', '#fear']
+Counter({'#pleasantness': 3, '#fear': 3, '#sadness': 3, '#joy': 2, '#eagerness': 2, '#calmness': 2, '#disgust': 1})
+
+Hauseingang :
+Sentics : [0.3213333333333333, 0.012833333333333334, -0.07466666666666666, 0.37866666666666665]
+Sentiments : ['#disgust', '#fear', '#calmness', '#eagerness', '#sadness', '#fear']
+Counter({'#fear': 2, '#disgust': 1, '#calmness': 1, '#eagerness': 1, '#sadness': 1})
+
+Sommergewitter :
+Sentics : [0.11212499999999999, -0.0695625, 0.1185, 0.25525]
+Sentiments : ['#disgust', '#fear', '#joy', '#eagerness', '#joy', '#joy', '#calmness', '#eagerness', '#fear', '#fear', '#joy', '#eagerness', '#calmness', '#eagerness', '#sadness', '#disgust']
+Counter({'#joy': 4, '#eagerness': 4, '#fear': 3, '#disgust': 2, '#calmness': 2, '#sadness': 1})
+
+Mehringdamm laufen :
+Sentics : [0.49333333333333335, 0.3188888888888889, 0.014444444444444446, 0.3711111111111111]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#eagerness', '#sadness', '#anger', '#joy', '#eagerness']
+Counter({'#eagerness': 3, '#joy': 2, '#calmness': 1, '#sadness': 1, '#anger': 1})
+
+​junge ceos :
+Sentics : [0.1925, 0.023333333333333338, -0.0075, 0.249]
+Sentiments : ['#calmness', '#calmness', '#sadness', '#fear', '#calmness', '#calmness', '#joy', '#eagerness', '#calmness', '#calmness', '#sadness', '#fear', '#calmness', '#eagerness', '#calmness', '#calmness']
+Counter({'#calmness': 9, '#sadness': 2, '#fear': 2, '#eagerness': 2, '#joy': 1})
+
+Saka Wasser :
+Sentics : [0.5116666666666667, 0.0, -0.5041666666666667, 0.63]
+Sentiments : ['#pleasantness', '#fear', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness']
+Counter({'#fear': 2, '#joy': 2, '#eagerness': 2, '#pleasantness': 1, '#sadness': 1})
+
+Zwannis :
+Sentics : [0.9, 0.0, 0.0, 0.9]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Fühlst du mich :
+Sentics : [0.27366666666666667, 0.12025, 0.15138888888888888, 0.017888888888888888]
+Sentiments : ['#joy', '#pleasantness', '#pleasantness', '#eagerness', '#fear', '#fear', '#pleasantness', '#eagerness', '#calmness', '#calmness', '#joy', '#calmness', '#calmness', '#calmness', '#sadness', '#anger']
+Counter({'#calmness': 5, '#pleasantness': 3, '#joy': 2, '#eagerness': 2, '#fear': 2, '#sadness': 1, '#anger': 1})
+
+​istanbul freestyle :
+Sentics : [0.6365000000000001, 0.3455, -0.19874999999999998, 0.6055]
+Sentiments : ['#pleasantness', '#fear', '#pleasantness', '#fear', '#joy', '#eagerness']
+Counter({'#pleasantness': 2, '#fear': 2, '#joy': 1, '#eagerness': 1})
+

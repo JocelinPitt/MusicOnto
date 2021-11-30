@@ -1,0 +1,50 @@
+Rain :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Azul y Oro :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Rain II :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Atrevido :
+Sentics : [0.46499999999999997, 0.0, -0.156, 0.47250000000000003]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear']
+Counter({'#joy': 1, '#eagerness': 1, '#sadness': 1, '#fear': 1})
+
+En la Ola :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+4AM :
+Sentics : [-0.3035, 0.48, 0.0, 0.14849999999999997]
+Sentiments : ['#joy', '#anger', '#fear', '#fear']
+Counter({'#fear': 2, '#joy': 1, '#anger': 1})
+
+Broke :
+Sentics : [0.257, 0.20433333333333334, 0.0, 0.30133333333333334]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#calmness', '#calmness', '#calmness']
+Counter({'#calmness': 4, '#joy': 1, '#eagerness': 1})
+
+Ñeri :
+Sentics : [0.015, -0.11125, -0.0055, 0.415]
+Sentiments : ['#calmness', '#calmness', '#sadness', '#pleasantness', '#fear', '#fear']
+Counter({'#calmness': 2, '#fear': 2, '#sadness': 1, '#pleasantness': 1})
+
+Boom :
+Sentics : [0.18999999999999997, 0.12361111111111112, 0.09000000000000001, 0.235]
+Sentiments : ['#sadness', '#fear', '#calmness', '#calmness', '#joy', '#eagerness', '#fear', '#fear', '#calmness', '#calmness']
+Counter({'#calmness': 4, '#fear': 3, '#sadness': 1, '#joy': 1, '#eagerness': 1})
+
+FEEL ME?? :
+Sentics : [0.41483333333333333, 0.04525, 0.0010833333333333344, 0.3507638888888889]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#anger', '#disgust', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#disgust', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#fear', '#fear', '#sadness', '#fear', '#calmness', '#eagerness', '#joy', '#eagerness', '#calmness', '#eagerness', '#sadness', '#disgust']
+Counter({'#joy': 12, '#eagerness': 10, '#sadness': 4, '#fear': 4, '#disgust': 3, '#calmness': 2, '#anger': 1})
+

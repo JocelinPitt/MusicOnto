@@ -1,0 +1,5 @@
+Te Boté (Remix) :
+Sentics : [0.52, 0.08777777777777779, -0.0801111111111111, 0.43666666666666665]
+Sentiments : ['#sadness', '#fear', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#fear']
+Counter({'#sadness': 5, '#fear': 5})
+

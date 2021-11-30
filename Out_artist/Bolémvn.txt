@@ -1,0 +1,50 @@
+10K :
+Sentics : [0.9, 0.0, 0.0, 0.9]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Eh boy :
+Sentics : [0.9, 0.0, 0.0, 0.9]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Sankhara #4 (Chic) :
+Sentics : [0.0, 0.0, 0.0, 0.83]
+Sentiments : ['#fear', '#fear', '#fear', '#fear']
+Counter({'#fear': 4})
+
+Ça canarde :
+Sentics : [-0.026666666666666672, 0.028, 0.085, -0.003333333333333336]
+Sentiments : ['#calmness', '#calmness', '#sadness', '#fear', '#sadness', '#fear', '#disgust', '#disgust']
+Counter({'#calmness': 2, '#sadness': 2, '#fear': 2, '#disgust': 2})
+
+Salut Les Terriens Part.3 :
+Sentics : [0.0, 0.0, 0.0, 0.83]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Gars du 7 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+All Everyday :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Quelle Vie :
+Sentics : [0.8335, 0.7215, 0.0, 0.0]
+Sentiments : ['#joy', '#calmness', '#joy', '#calmness']
+Counter({'#joy': 2, '#calmness': 2})
+
+Sankhara #3 (Lamelle) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Carrément Gang :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,50 @@
+Easy :
+Sentics : [0.36, -0.07416666666666667, -0.2723333333333333, 0.4083333333333333]
+Sentiments : ['#calmness', '#calmness', '#sadness', '#disgust', '#disgust', '#disgust', '#pleasantness', '#fear']
+Counter({'#disgust': 3, '#calmness': 2, '#sadness': 1, '#pleasantness': 1, '#fear': 1})
+
+Como Se Siente :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Costear Remix (Equipo Rojo) :
+Sentics : [0.18924444444444444, 0.17693333333333333, 0.007066666666666667, 0.11257777777777778]
+Sentiments : ['#joy', '#eagerness', '#joy', '#calmness', '#joy', '#eagerness', '#calmness', '#calmness', '#calmness', '#calmness', '#pleasantness', '#fear', '#sadness', '#fear', '#joy', '#eagerness', '#disgust', '#disgust', '#sadness', '#anger', '#calmness', '#calmness', '#anger', '#eagerness', '#joy', '#calmness', '#calmness', '#calmness']
+Counter({'#calmness': 10, '#joy': 5, '#eagerness': 4, '#fear': 2, '#sadness': 2, '#disgust': 2, '#anger': 2, '#pleasantness': 1})
+
+No Me Conoce :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Subiendo de Nivel (Remix) :
+Sentics : [0.2992, 0.020999999999999998, 0.030200000000000005, 0.061999999999999986]
+Sentiments : ['#sadness', '#pleasantness', '#pleasantness', '#fear', '#pleasantness', '#fear', '#joy', '#joy', '#sadness', '#fear']
+Counter({'#pleasantness': 3, '#fear': 3, '#sadness': 2, '#joy': 2})
+
+Subiendo De Nivel :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Kobe En LA :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Game Over :
+Sentics : [0.0, 0.0, -0.405, -0.45]
+Sentiments : ['#disgust', '#fear', '#disgust', '#disgust']
+Counter({'#disgust': 3, '#fear': 1})
+
+Costear :
+Sentics : [0.31133333333333335, 0.349, -0.006666666666666664, 0.31633333333333336]
+Sentiments : ['#calmness', '#eagerness', '#disgust', '#disgust', '#joy', '#calmness']
+Counter({'#calmness': 2, '#disgust': 2, '#eagerness': 1, '#joy': 1})
+
+24 Horas :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

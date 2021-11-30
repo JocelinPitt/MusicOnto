@@ -1,0 +1,50 @@
+Obsesión :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ella y Yo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Dile Al Amor :
+Sentics : [0.67275, 0.042, 0.0, 0.5715]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#eagerness']
+Counter({'#joy': 2, '#eagerness': 2, '#calmness': 2})
+
+Mi Corazoncito :
+Sentics : [0.5066666666666667, 0.05666666666666667, -0.3203333333333333, 0.48000000000000004]
+Sentiments : ['#calmness', '#calmness', '#joy', '#eagerness', '#sadness', '#pleasantness']
+Counter({'#calmness': 2, '#joy': 1, '#eagerness': 1, '#sadness': 1, '#pleasantness': 1})
+
+Solo Por Un Beso :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Los Infieles :
+Sentics : [0.3034375, 0.015593749999999998, -0.018750000000000003, 0.3921875]
+Sentiments : ['#calmness', '#eagerness', '#disgust', '#fear', '#sadness', '#fear', '#sadness', '#pleasantness', '#pleasantness', '#eagerness', '#fear', '#fear', '#sadness', '#anger', '#sadness', '#fear', '#calmness', '#eagerness', '#sadness', '#disgust', '#joy', '#joy', '#sadness', '#fear', '#disgust', '#fear', '#joy', '#joy', '#calmness', '#calmness', '#sadness', '#pleasantness']
+Counter({'#fear': 7, '#sadness': 7, '#calmness': 4, '#joy': 4, '#eagerness': 3, '#disgust': 3, '#pleasantness': 3, '#anger': 1})
+
+El Malo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Enseñame a Olvidar :
+Sentics : [0.8, 0.0, 0.0, 0.9]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+I’m Sorry :
+Sentics : [0.3978, 0.27974, 0.04004, 0.1113]
+Sentiments : ['#sadness', '#anger', '#sadness', '#fear', '#joy', '#eagerness', '#anger', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#anger', '#sadness', '#anger', '#joy', '#joy', '#sadness', '#disgust', '#joy', '#eagerness', '#sadness', '#anger', '#sadness', '#disgust', '#sadness', '#anger', '#disgust', '#fear', '#joy', '#eagerness', '#sadness', '#anger', '#sadness', '#anger', '#sadness', '#disgust', '#sadness', '#fear', '#sadness', '#anger', '#sadness', '#anger', '#sadness', '#sadness']
+Counter({'#sadness': 16, '#anger': 10, '#joy': 7, '#eagerness': 6, '#disgust': 4, '#fear': 3})
+
+Yo Quisiera Amarla :
+Sentics : [0.1794, 0.0794, 0.0, 0.2465]
+Sentiments : ['#calmness', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#eagerness': 3, '#joy': 2, '#calmness': 1})
+

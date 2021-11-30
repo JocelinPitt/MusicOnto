@@ -1,0 +1,50 @@
+Sentimento Safari :
+Sentics : [0.0, 0.0, 0.0, 0.5533333333333333]
+Sentiments : ['#fear', '#fear', '#fear', '#fear']
+Counter({'#fear': 4})
+
+Hoji N’ka Ta Rola :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Hoji en Sá Ta Vivi :
+Sentics : [0.0, 0.0, 0.0, 0.83]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Conclusão :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mama ’Ta Xinti :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Stunka :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Don’t Lie :
+Sentics : [0.3088, -0.072, -0.2748, 0.4767]
+Sentiments : ['#fear', '#fear', '#sadness', '#pleasantness', '#fear', '#fear', '#sadness', '#pleasantness', '#sadness', '#pleasantness', '#joy', '#eagerness', '#joy', '#joy', '#fear', '#fear']
+Counter({'#fear': 6, '#sadness': 3, '#pleasantness': 3, '#joy': 3, '#eagerness': 1})
+
+Hospedeira :
+Sentics : [0.0, 0.1768, 0.0, 0.0]
+Sentiments : ['#calmness', '#calmness']
+Counter({'#calmness': 2})
+
+Mistura :
+Sentics : [0.006666666666666667, -0.05666666666666667, 0.0, 0.29333333333333333]
+Sentiments : ['#fear', '#fear', '#anger', '#anger', '#sadness', '#fear', '#anger', '#anger', '#sadness', '#fear']
+Counter({'#fear': 4, '#anger': 4, '#sadness': 2})
+
+Podi Dan :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

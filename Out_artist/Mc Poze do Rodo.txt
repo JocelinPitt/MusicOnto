@@ -1,0 +1,50 @@
+Vida Louca :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tô Voando Alto :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Eu Fiz o Jogo Virar :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Os TCPuta Tá Peidando :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tá Fluindo :
+Sentics : [0.721, 0.0, 0.945, 0.0]
+Sentiments : ['#joy', '#pleasantness']
+Counter({'#joy': 1, '#pleasantness': 1})
+
+No Baile Nós É Mídia :
+Sentics : [0.7955, 0.411, 0.4725, 0.3585]
+Sentiments : ['#joy', '#calmness', '#joy', '#pleasantness']
+Counter({'#joy': 2, '#calmness': 1, '#pleasantness': 1})
+
+Os Coringas do Flamengo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Homenagem Pra Tropa do Rodo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Fala que a Tropa É o Comando Vermelho :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Novinha Gostosa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

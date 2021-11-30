@@ -1,0 +1,50 @@
+Llorando en la Limo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Antes de Morirme :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Bien Duro :
+Sentics : [0.8205, 0.3705, 0.4725, 0.4355]
+Sentiments : ['#joy', '#pleasantness', '#joy', '#eagerness']
+Counter({'#joy': 2, '#pleasantness': 1, '#eagerness': 1})
+
+Nunca Estoy :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Bolsas :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Cuando Me Miras :
+Sentics : [-0.04999999999999999, 0.0, -0.3435, -0.010000000000000009]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear']
+Counter({'#joy': 1, '#eagerness': 1, '#sadness': 1, '#fear': 1})
+
+Drama :
+Sentics : [0.6146, -0.075, 0.10219999999999999, 0.23770000000000002]
+Sentiments : ['#sadness', '#pleasantness', '#sadness', '#pleasantness', '#joy', '#eagerness', '#sadness', '#disgust', '#sadness', '#disgust']
+Counter({'#sadness': 4, '#pleasantness': 2, '#disgust': 2, '#joy': 1, '#eagerness': 1})
+
+Spanish Jigga Freestyle (Live from VEVO NYC, July 18') :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+C.H.I.T.O. :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Demasiadas Mujeres :
+Sentics : [0.75, -0.279, 0.44, 0.06]
+Sentiments : ['#sadness', '#disgust']
+Counter({'#sadness': 1, '#disgust': 1})
+

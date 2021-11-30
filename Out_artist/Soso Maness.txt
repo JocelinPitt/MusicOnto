@@ -1,0 +1,50 @@
+Petrouchka :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+TP :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Merlish :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Les derniers marioles :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+So Maness :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mistral :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Minuit c’est loin :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Zumba Cafew :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Zodiaque :
+Sentics : [0.902, -0.29, 0.0, 0.8180000000000001]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 2, '#eagerness': 2})
+
+Puta madre :
+Sentics : [0.0, 0.084, -0.06, 0.156]
+Sentiments : ['#calmness', '#eagerness']
+Counter({'#calmness': 1, '#eagerness': 1})
+

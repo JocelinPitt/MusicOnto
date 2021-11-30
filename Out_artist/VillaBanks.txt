@@ -1,0 +1,50 @@
+Candy :
+Sentics : [0.9, 0.0, 0.0, 0.9]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+S :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Caribe :
+Sentics : [0.865, 0.0, 0.0, 0.45]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#sadness']
+Counter({'#sadness': 2, '#joy': 1, '#eagerness': 1})
+
+Pasticche :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Barbie :
+Sentics : [0.3375, 0.22574999999999998, -0.0225, 0.20500000000000002]
+Sentiments : ['#disgust', '#fear', '#anger', '#anger', '#joy', '#joy', '#joy', '#eagerness']
+Counter({'#joy': 3, '#anger': 2, '#disgust': 1, '#fear': 1, '#eagerness': 1})
+
+XDONO RMX RMX :
+Sentics : [0.79, 0.909, 0.0, 0.0]
+Sentiments : ['#joy', '#calmness']
+Counter({'#joy': 1, '#calmness': 1})
+
+Chupa Chupa :
+Sentics : [0.04, -0.415, 0.055, 0.0]
+Sentiments : ['#anger', '#anger', '#sadness', '#disgust']
+Counter({'#anger': 2, '#sadness': 1, '#disgust': 1})
+
+Jasmine :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Il Doc :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+KARDASHIAN :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

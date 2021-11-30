@@ -1,0 +1,50 @@
+Alocao :
+Sentics : [0.021, 0.0, 0.0, 0.054]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+¿Qué Te Pasó? (Demo) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La Culpa* :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Pantera :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Como el Agua :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Lucifer :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Animales :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Morena :
+Sentics : [0.47050000000000003, 0.3705, 0.0, 0.4625]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 2, '#eagerness': 2})
+
+Mala :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Somos Iguales :
+Sentics : [0.0105, 0.0, 0.0, 0.027]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+

@@ -1,0 +1,50 @@
+Papaoutai :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+​Tous les mêmes :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : ['#sadness', '#disgust', '#sadness', '#disgust']
+Counter({'#sadness': 2, '#disgust': 2})
+
+Formidable :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Carmen :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​ave cesária :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Alors on danse :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+​bâtard :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+​ta fête :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​quand c’est ? :
+Sentics : [0.83, 0.0, 0.0, 0.0]
+Sentiments : ['#sadness', '#sadness']
+Counter({'#sadness': 2})
+
+​moules frites :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

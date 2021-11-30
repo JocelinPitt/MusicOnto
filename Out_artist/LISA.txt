@@ -1,0 +1,50 @@
+Каждый раз (Every Time) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Нимфоманка (Nymphomaniac) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Нет монет (No Money) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+90 :
+Sentics : [0.9, 0.0, -0.916, 0.59]
+Sentiments : ['#sadness', '#pleasantness']
+Counter({'#sadness': 1, '#pleasantness': 1})
+
+Твоё имя (Your Name) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Пост-пост (Post-Post) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Русский ковчег (Russian Ark) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Последняя дискотека (Last Disco) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ушла к реалисту (Gone To Realist) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ночной ларёк (Convenience Stall) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

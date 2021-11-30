@@ -1,0 +1,50 @@
+J’oublie tout :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tchikita :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tu la love :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Dans ma paranoïa :
+Sentics : [0.5499999999999999, 0.0, 0.0, 0.29]
+Sentiments : ['#sadness', '#fear', '#fear', '#fear', '#sadness', '#fear']
+Counter({'#fear': 4, '#sadness': 2})
+
+My World :
+Sentics : [0.853, 0.0, 0.0, 0.822]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Wesh alors :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Sors le cross volé :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Lova :
+Sentics : [0.853, 0.0, 0.0, 0.822]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Comme d’hab :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Dans mon del :
+Sentics : [0.853, 0.0, 0.0, 0.822]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+

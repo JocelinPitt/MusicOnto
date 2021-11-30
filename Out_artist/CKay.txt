@@ -1,0 +1,50 @@
+Love Nwantiti (North African Remix) :
+Sentics : [0.31825000000000003, 0.0656, 0.0064, 0.1991]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#sadness', '#pleasantness', '#calmness', '#eagerness', '#joy', '#joy', '#pleasantness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#joy': 8, '#eagerness': 5, '#pleasantness': 3, '#sadness': 2, '#fear': 1, '#calmness': 1})
+
+​love nwantiti (ah ah ah) :
+Sentics : [0.29490625, -0.018062500000000002, 0.0371875, 0.18584375]
+Sentiments : ['#joy', '#joy', '#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness', '#sadness', '#disgust', '#calmness', '#eagerness', '#calmness', '#eagerness', '#joy', '#eagerness', '#joy', '#anger', '#joy', '#joy', '#joy', '#eagerness', '#pleasantness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#joy': 10, '#eagerness': 7, '#sadness': 2, '#calmness': 2, '#pleasantness': 2, '#fear': 1, '#disgust': 1, '#anger': 1})
+
+Felony :
+Sentics : [0.23778125, 0.059875, 0.049999999999999996, 0.24953125]
+Sentiments : ['#sadness', '#pleasantness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#anger', '#calmness', '#calmness', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#disgust', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#pleasantness', '#pleasantness', '#eagerness', '#disgust', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#eagerness']
+Counter({'#joy': 14, '#eagerness': 12, '#sadness': 3, '#pleasantness': 3, '#calmness': 3, '#disgust': 2, '#fear': 2, '#anger': 1})
+
+Love Nwantiti (Remix) :
+Sentics : [0.3424920634920635, 0.012936507936507935, 0.034761904761904765, 0.31766666666666665]
+Sentiments : ['#joy', '#eagerness', '#eagerness', '#eagerness', '#sadness', '#disgust', '#eagerness', '#eagerness', '#joy', '#calmness', '#sadness', '#disgust', '#pleasantness', '#eagerness', '#joy', '#pleasantness', '#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#joy', '#joy', '#anger', '#calmness', '#calmness', '#joy', '#calmness', '#calmness', '#eagerness', '#joy', '#eagerness', '#calmness', '#eagerness', '#sadness', '#disgust', '#sadness', '#fear', '#joy', '#eagerness', '#anger', '#anger', '#joy', '#eagerness', '#joy', '#calmness', '#sadness', '#fear', '#anger', '#anger', '#joy', '#calmness', '#joy', '#eagerness', '#calmness', '#eagerness']
+Counter({'#eagerness': 15, '#joy': 14, '#calmness': 10, '#sadness': 5, '#anger': 5, '#disgust': 3, '#pleasantness': 2, '#fear': 2})
+
+Love Nwantiti (Spanish Remix) :
+Sentics : [0.4631, 0.054849999999999996, 0.3237, 0.42545]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#fear', '#pleasantness', '#eagerness', '#calmness', '#eagerness', '#sadness', '#disgust', '#calmness', '#calmness', '#joy', '#pleasantness', '#pleasantness', '#eagerness', '#joy', '#pleasantness', '#joy', '#eagerness']
+Counter({'#eagerness': 5, '#joy': 4, '#pleasantness': 4, '#sadness': 3, '#calmness': 3, '#fear': 2, '#disgust': 1})
+
+Love Nwantiti (German Remix) :
+Sentics : [0.3057, 0.059199999999999996, 0.2732, 0.4609]
+Sentiments : ['#joy', '#eagerness', '#pleasantness', '#eagerness', '#calmness', '#eagerness', '#pleasantness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#eagerness': 4, '#pleasantness': 3, '#joy': 2, '#calmness': 1})
+
+Beeni :
+Sentics : [0.6437222222222222, 0.10222222222222221, 0.072, 0.38122222222222224]
+Sentiments : ['#sadness', '#anger', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#pleasantness', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#fear']
+Counter({'#joy': 10, '#eagerness': 5, '#pleasantness': 2, '#sadness': 1, '#anger': 1, '#fear': 1})
+
+Love Nwantiti (East African Remix) :
+Sentics : [0.29481250000000003, 0.082, 0.10875000000000001, 0.3941875]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#fear', '#pleasantness', '#eagerness', '#joy', '#eagerness', '#sadness', '#pleasantness', '#calmness', '#eagerness', '#pleasantness', '#eagerness', '#joy', '#pleasantness']
+Counter({'#eagerness': 6, '#joy': 4, '#pleasantness': 4, '#sadness': 2, '#fear': 1, '#calmness': 1})
+
+Jeje De Whine :
+Sentics : [0.37357407407407406, 0.12388888888888888, 0.18396296296296297, 0.34225925925925926]
+Sentiments : ['#joy', '#joy', '#sadness', '#disgust', '#pleasantness', '#eagerness', '#joy', '#eagerness', '#disgust', '#fear', '#joy', '#joy', '#joy', '#calmness', '#pleasantness', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 8, '#eagerness': 5, '#disgust': 2, '#pleasantness': 2, '#sadness': 1, '#fear': 1, '#calmness': 1})
+
+Kiss Me Like You Miss Me :
+Sentics : [0.5616666666666666, 0.0, 0.2625, 0.25833333333333336]
+Sentiments : ['#sadness', '#pleasantness', '#sadness', '#fear', '#joy', '#pleasantness', '#joy', '#pleasantness']
+Counter({'#pleasantness': 3, '#sadness': 2, '#joy': 2, '#fear': 1})
+

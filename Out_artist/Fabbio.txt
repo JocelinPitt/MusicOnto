@@ -1,0 +1,5 @@
+Llamé pa’ verte :
+Sentics : [0.021, 0.0, 0.0, 0.054]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+

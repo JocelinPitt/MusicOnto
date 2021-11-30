@@ -1,0 +1,50 @@
+Qué Bonito Fue :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Cabaret :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+INMORTALES :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+JOVEN PARA SIEMPRE :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Malibú Con Piña :
+Sentics : [0.9, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+Poca Suerte :
+Sentics : [0.45, 0.397, -0.46, 0.9504999999999999]
+Sentiments : ['#calmness', '#eagerness', '#pleasantness', '#fear']
+Counter({'#calmness': 1, '#eagerness': 1, '#pleasantness': 1, '#fear': 1})
+
+Qué más dará :
+Sentics : [0.6006666666666667, 0.0, 0.24733333333333332, 0.3]
+Sentiments : ['#joy', '#eagerness', '#joy', '#pleasantness']
+Counter({'#joy': 2, '#eagerness': 1, '#pleasantness': 1})
+
+Andrómeda :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ojalá Te Vaya Bien :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+¿ DÓNDE TE ESPERO ? :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

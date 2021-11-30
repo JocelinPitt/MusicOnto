@@ -1,0 +1,50 @@
+Sale El Sol :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Soldadito de Hierro :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mi Religión :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mejor Así :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Se Nos Escapa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Hijos de la Tierra :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Libertad :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+El Despertar :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Esperando :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Soldadito de Hierro (RMX) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

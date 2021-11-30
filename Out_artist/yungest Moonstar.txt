@@ -1,0 +1,15 @@
+​uNa DiReZioNe giUsTa :
+Sentics : [0.0, 0.5533333333333333, 0.0, 0.0]
+Sentiments : ['#anger', '#anger', '#anger', '#anger']
+Counter({'#anger': 4})
+
+​bLu :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​leantro (sFaCioLaTe mixTaPe intro)* :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

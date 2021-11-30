@@ -1,0 +1,50 @@
+Anos Luz :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Máquina do Tempo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+A Morte do Autotune :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Urubus :
+Sentics : [-0.01, 0.1225, -0.006666666666666667, 0.018833333333333334]
+Sentiments : ['#calmness', '#calmness', '#calmness', '#eagerness', '#calmness', '#calmness']
+Counter({'#calmness': 5, '#eagerness': 1})
+
+Lama no Copo :
+Sentics : [0.78, 0.84, 0.0, 0.0]
+Sentiments : ['#sadness', '#anger', '#sadness', '#anger', '#sadness', '#anger', '#sadness', '#anger']
+Counter({'#sadness': 4, '#anger': 4})
+
+Kenny G :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+De Peça em Peça :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+777-666 :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Celine :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Boomzim :
+Sentics : [-0.006666666666666667, 0.026, 0.014, 0.022000000000000002]
+Sentiments : ['#calmness', '#eagerness']
+Counter({'#calmness': 1, '#eagerness': 1})
+

@@ -1,0 +1,45 @@
+Tukuntazo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Yo No Me Voy Acostar :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Amor y dinero :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Varón :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ganas (Freestyle) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Pícala :
+Sentics : [0.19, 0.11125, 0.0, 0.2375]
+Sentiments : ['#sadness', '#fear', '#calmness', '#calmness']
+Counter({'#calmness': 2, '#sadness': 1, '#fear': 1})
+
+Twerk :
+Sentics : [0.2917857142857143, 0.022000000000000002, 0.09642857142857142, 0.095]
+Sentiments : ['#disgust', '#fear', '#sadness', '#sadness', '#disgust', '#fear', '#sadness', '#sadness', '#disgust', '#fear', '#sadness', '#sadness', '#disgust', '#fear', '#joy', '#joy', '#calmness', '#eagerness', '#joy', '#joy', '#joy', '#joy', '#joy', '#joy', '#calmness', '#calmness', '#joy', '#joy']
+Counter({'#joy': 10, '#sadness': 6, '#disgust': 4, '#fear': 4, '#calmness': 3, '#eagerness': 1})
+
+Rechura De Droga :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La Tirana :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

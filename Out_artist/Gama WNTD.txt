@@ -1,0 +1,15 @@
+Borboletas :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+100 Problemas :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Firma :
+Sentics : [0.5405, 0.0325, 0.0125, 0.47450000000000003]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear', '#joy', '#eagerness']
+Counter({'#joy': 2, '#eagerness': 2, '#sadness': 1, '#fear': 1})
+

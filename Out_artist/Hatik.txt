@@ -1,0 +1,50 @@
+Angela :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Prison pour mineurs :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+La meilleure :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Adieu, mon amour :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+FLK (Fais les kiffer) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Welcome :
+Sentics : [-0.04899999999999999, 0.0, -0.6445000000000001, 0.305]
+Sentiments : ['#joy', '#pleasantness', '#sadness', '#fear']
+Counter({'#joy': 1, '#pleasantness': 1, '#sadness': 1, '#fear': 1})
+
+Camaro Sport :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Buena Noche :
+Sentics : [0.9, 0.0, 0.0, 0.9]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Plus riche :
+Sentics : [0.5468333333333333, -0.3523333333333333, -0.056666666666666664, 0.5188333333333334]
+Sentiments : ['#anger', '#eagerness', '#calmness', '#eagerness', '#joy', '#calmness', '#joy', '#eagerness']
+Counter({'#eagerness': 3, '#calmness': 2, '#joy': 2, '#anger': 1})
+
+L’amour du vide :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

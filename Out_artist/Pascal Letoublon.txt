@@ -1,0 +1,5 @@
+Friendships (Lost My Love) :
+Sentics : [0.44179411764705884, -0.018078431372549022, -0.05980392156862745, 0.40973039215686274]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#eagerness', '#disgust', '#fear', '#fear', '#fear', '#calmness', '#eagerness', '#calmness', '#calmness', '#joy', '#pleasantness', '#sadness', '#fear', '#calmness', '#eagerness', '#sadness', '#fear', '#sadness', '#pleasantness', '#calmness', '#eagerness', '#joy', '#eagerness', '#joy', '#pleasantness', '#joy', '#eagerness', '#joy', '#pleasantness', '#anger', '#anger', '#joy', '#eagerness', '#calmness', '#eagerness', '#joy', '#eagerness', '#sadness', '#pleasantness', '#joy', '#joy', '#joy', '#eagerness', '#sadness', '#disgust', '#joy', '#eagerness', '#sadness', '#disgust', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#eagerness']
+Counter({'#joy': 14, '#eagerness': 14, '#calmness': 9, '#sadness': 6, '#fear': 5, '#pleasantness': 5, '#disgust': 3, '#anger': 2})
+

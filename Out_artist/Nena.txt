@@ -1,0 +1,50 @@
+99 Luftballons :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+99 Red Balloons :
+Sentics : [0.20392156862745098, 0.021431372549019608, 0.15554411764705883, 0.4136764705882353]
+Sentiments : ['#calmness', '#eagerness', '#disgust', '#fear', '#disgust', '#fear', '#disgust', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#eagerness', '#eagerness', '#eagerness', '#disgust', '#fear', '#eagerness', '#eagerness', '#sadness', '#disgust', '#disgust', '#fear', '#joy', '#pleasantness', '#pleasantness', '#fear', '#disgust', '#disgust', '#sadness', '#disgust', '#calmness', '#eagerness', '#disgust', '#fear', '#sadness', '#fear', '#pleasantness', '#fear', '#pleasantness', '#eagerness', '#calmness', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#fear', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#calmness', '#joy', '#anger', '#calmness', '#eagerness', '#joy', '#eagerness', '#pleasantness', '#fear', '#fear', '#fear', '#disgust', '#fear', '#sadness', '#disgust', '#sadness', '#fear', '#sadness', '#disgust', '#sadness', '#anger']
+Counter({'#eagerness': 17, '#fear': 16, '#disgust': 13, '#joy': 12, '#sadness': 9, '#pleasantness': 6, '#calmness': 5, '#anger': 2})
+
+Irgendwie, irgendwo, irgendwann :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Leuchtturm (New Version) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Nur geträumt :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Anyplace, Anywhere, Anytime :
+Sentics : [0.4040520833333333, 0.056875, 0.23010416666666667, 0.045885416666666665]
+Sentiments : ['#joy', '#pleasantness', '#joy', '#eagerness', '#joy', '#pleasantness', '#joy', '#eagerness', '#sadness', '#disgust', '#joy', '#pleasantness', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#pleasantness', '#joy', '#eagerness', '#joy', '#pleasantness', '#joy', '#joy', '#joy', '#joy', '#pleasantness', '#eagerness', '#sadness', '#fear', '#joy', '#calmness', '#joy', '#eagerness', '#joy', '#pleasantness', '#anger', '#anger']
+Counter({'#joy': 18, '#pleasantness': 7, '#eagerness': 6, '#sadness': 2, '#anger': 2, '#disgust': 1, '#fear': 1, '#calmness': 1})
+
+Leuchtturm :
+Sentics : [0.39, -0.078, -0.357, 0.337]
+Sentiments : ['#calmness', '#eagerness', '#pleasantness', '#fear']
+Counter({'#calmness': 1, '#eagerness': 1, '#pleasantness': 1, '#fear': 1})
+
+Liebe ist :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+So sehr :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+In meinem Leben :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

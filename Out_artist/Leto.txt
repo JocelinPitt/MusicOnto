@@ -1,0 +1,50 @@
+Macaroni :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+A&H :
+Sentics : [0.9, 0.0, 0.0, 0.9]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Tes parents :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Double Bang 6 :
+Sentics : [0.4485, 0.085, 0.0, 0.381]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#calmness']
+Counter({'#calmness': 2, '#joy': 1, '#eagerness': 1})
+
+Avon Barksdale :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Train de vie :
+Sentics : [0.774, 0.725, 0.0, 0.0]
+Sentiments : ['#joy', '#calmness', '#joy', '#calmness']
+Counter({'#joy': 2, '#calmness': 2})
+
+Double Bang 5 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Double Bang 9 :
+Sentics : [0.445, 0.042, -0.03, 0.453]
+Sentiments : ['#sadness', '#fear', '#calmness', '#eagerness']
+Counter({'#sadness': 1, '#fear': 1, '#calmness': 1, '#eagerness': 1})
+
+Jeu dangereux :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mélodie :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

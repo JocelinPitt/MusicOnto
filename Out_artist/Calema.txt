@@ -1,0 +1,50 @@
+Te Amo :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+A Nossa Vez :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Allez :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Kelê Mbê :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Casa de Madeira :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Yellow :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Vai :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tudo Por Amor :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Amar 24/24 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Regras :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,50 @@
+Bande organisée :
+Sentics : [0.1706, 0.0, 0.0, 0.1644]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+L’étoile sur le maillot :
+Sentics : [0.0, 0.168, 0.0, 0.0]
+Sentiments : ['#calmness', '#calmness']
+Counter({'#calmness': 2})
+
+13 balles :
+Sentics : [0.626375, 0.075375, -0.019750000000000004, 0.653375]
+Sentiments : ['#joy', '#eagerness', '#joy', '#calmness', '#pleasantness', '#eagerness', '#sadness', '#pleasantness', '#sadness', '#pleasantness']
+Counter({'#pleasantness': 3, '#joy': 2, '#eagerness': 2, '#sadness': 2, '#calmness': 1})
+
+Je suis Marseille :
+Sentics : [-0.19425, -0.1825, 0.0, 0.1125]
+Sentiments : ['#joy', '#calmness', '#fear', '#fear']
+Counter({'#fear': 2, '#joy': 1, '#calmness': 1})
+
+War Zone :
+Sentics : [0.42, 0.0, 0.45, 0.0]
+Sentiments : ['#sadness', '#disgust']
+Counter({'#sadness': 1, '#disgust': 1})
+
+Combien :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Ma gadji :
+Sentics : [-0.003500000000000003, 0.0, 0.0, -0.006000000000000005]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#fear']
+Counter({'#joy': 1, '#eagerness': 1, '#sadness': 1, '#fear': 1})
+
+Tout a changé :
+Sentics : [0.89, 0.0, 0.0, 0.75]
+Sentiments : ['#sadness', '#fear', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#fear', '#sadness', '#fear']
+Counter({'#sadness': 5, '#fear': 5})
+
+C’est maintenant :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+13 Organisé :
+Sentics : [0.34555555555555556, 0.005833333333333329, 0.0365, 0.2808611111111111]
+Sentiments : ['#joy', '#pleasantness', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#pleasantness', '#anger', '#eagerness', '#anger', '#disgust', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#fear', '#disgust', '#disgust', '#sadness', '#pleasantness', '#joy', '#joy']
+Counter({'#joy': 7, '#eagerness': 4, '#pleasantness': 3, '#sadness': 3, '#disgust': 3, '#fear': 2, '#anger': 2})
+

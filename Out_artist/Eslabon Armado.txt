@@ -1,0 +1,50 @@
+Con Tus Besos :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ando Más Que Mal :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Jugaste y Sufrí :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Baby :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+¿Dime Por Que? :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La Mejor De Todas :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mi Historia Entre Tus Dedos :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Regresa Mami :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Me Matas :
+Sentics : [0.9, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+Dame Tu Calor :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

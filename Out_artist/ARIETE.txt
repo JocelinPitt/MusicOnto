@@ -1,0 +1,50 @@
+Venerdì :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Amianto :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+18 anni :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Pillole :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Riposa in pace :
+Sentics : [0.056, 0.105, 0.786, -0.68]
+Sentiments : ['#pleasantness', '#fear']
+Counter({'#pleasantness': 1, '#fear': 1})
+
+Mille guerre :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+L’ultima notte :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Avrei voluto dirti :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Solo te :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Insicuri :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

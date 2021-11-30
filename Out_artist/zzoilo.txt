@@ -1,0 +1,10 @@
+Mon Amour :
+Sentics : [0.87, 0.822, 0.0, 0.717]
+Sentiments : ['#joy', '#calmness']
+Counter({'#joy': 1, '#calmness': 1})
+
+Menta :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,50 @@
+She Don’t Give a FO :
+Sentics : [0.36628571428571427, 0.02130952380952381, 0.016738095238095236, 0.0]
+Sentiments : ['#joy', '#joy', '#joy', '#joy', '#joy', '#joy', '#calmness', '#calmness', '#joy', '#calmness', '#joy', '#pleasantness', '#joy', '#joy', '#joy', '#joy']
+Counter({'#joy': 12, '#calmness': 3, '#pleasantness': 1})
+
+Hello Cotto :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Rockstar :
+Sentics : [0.3375, 0.021, 0.0, 0.415]
+Sentiments : ['#fear', '#fear', '#fear', '#fear', '#joy', '#joy', '#joy', '#joy', '#calmness', '#calmness']
+Counter({'#fear': 4, '#joy': 4, '#calmness': 2})
+
+Goteo :
+Sentics : [0.0, 0.0, 0.806, 0.705]
+Sentiments : ['#pleasantness', '#eagerness']
+Counter({'#pleasantness': 1, '#eagerness': 1})
+
+Si Te Sentis Sola :
+Sentics : [0.3635, 0.0, 0.0, 0.3645]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Mi Chain de Roque :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Hello Cotto (Remix) :
+Sentics : [0.0027916666666666606, 0.04241666666666667, -0.01125, 0.050166666666666665]
+Sentiments : ['#sadness', '#fear', '#joy', '#anger', '#joy', '#calmness', '#fear', '#fear', '#sadness', '#anger', '#sadness', '#disgust', '#calmness', '#eagerness']
+Counter({'#sadness': 3, '#fear': 3, '#joy': 2, '#anger': 2, '#calmness': 2, '#disgust': 1, '#eagerness': 1})
+
+No Vendo Trap :
+Sentics : [0.3968666666666667, 0.09933333333333333, -0.08225, 0.05446666666666668]
+Sentiments : ['#joy', '#joy', '#joy', '#eagerness', '#sadness', '#fear', '#pleasantness', '#eagerness', '#sadness', '#anger', '#disgust', '#disgust', '#sadness', '#fear', '#sadness', '#anger', '#pleasantness', '#fear', '#joy', '#anger', '#pleasantness', '#fear']
+Counter({'#joy': 4, '#sadness': 4, '#fear': 4, '#pleasantness': 3, '#anger': 3, '#eagerness': 2, '#disgust': 2})
+
+Chico Estrella :
+Sentics : [0.1834, 0.051500000000000004, 0.0057, 0.0123]
+Sentiments : ['#joy', '#joy', '#calmness', '#calmness', '#calmness', '#eagerness']
+Counter({'#calmness': 3, '#joy': 2, '#eagerness': 1})
+
+Sin Culpa :
+Sentics : [0.75, -0.279, 0.44, 0.06]
+Sentiments : ['#sadness', '#disgust', '#sadness', '#disgust']
+Counter({'#sadness': 2, '#disgust': 2})
+

@@ -1,0 +1,10 @@
+F.R :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Groupies (Demo) :
+Sentics : [0.1125, 0.11862500000000001, 0.0, 0.1125]
+Sentiments : ['#calmness', '#calmness', '#calmness', '#calmness', '#calmness', '#calmness', '#calmness', '#calmness', '#joy', '#eagerness']
+Counter({'#calmness': 8, '#joy': 1, '#eagerness': 1})
+

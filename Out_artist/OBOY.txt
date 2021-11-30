@@ -1,0 +1,50 @@
+Nuit :
+Sentics : [0.2325, 0.01, 0.01, 0.1975]
+Sentiments : ['#disgust', '#fear', '#sadness', '#fear']
+Counter({'#fear': 2, '#disgust': 1, '#sadness': 1})
+
+Cobra :
+Sentics : [0.84675, 0.07999999999999999, 0.225, 0.3285]
+Sentiments : ['#sadness', '#fear', '#sadness', '#anger', '#joy', '#eagerness', '#sadness', '#disgust']
+Counter({'#sadness': 3, '#fear': 1, '#anger': 1, '#joy': 1, '#eagerness': 1, '#disgust': 1})
+
+Saloon :
+Sentics : [0.0, 0.0, 0.0, 0.16599999999999998]
+Sentiments : ['#joy', '#calmness', '#joy', '#calmness', '#fear', '#fear', '#joy', '#calmness', '#fear', '#fear', '#fear', '#fear', '#fear', '#fear']
+Counter({'#fear': 8, '#joy': 3, '#calmness': 3})
+
+Douce :
+Sentics : [0.09999999999999998, 0.03933333333333333, 0.03566666666666667, 0.05499999999999999]
+Sentiments : ['#pleasantness', '#fear', '#sadness', '#fear', '#calmness', '#eagerness']
+Counter({'#fear': 2, '#pleasantness': 1, '#sadness': 1, '#calmness': 1, '#eagerness': 1})
+
+Cabeza :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+TDB :
+Sentics : [-0.2, 0.06625, -0.1735, -0.012499999999999983]
+Sentiments : ['#calmness', '#calmness', '#sadness', '#fear', '#pleasantness', '#fear']
+Counter({'#calmness': 2, '#fear': 2, '#sadness': 1, '#pleasantness': 1})
+
+Cruel :
+Sentics : [0.1256, -0.15839999999999999, 0.0, 0.13640000000000002]
+Sentiments : ['#anger', '#eagerness', '#calmness', '#calmness']
+Counter({'#calmness': 2, '#anger': 1, '#eagerness': 1})
+
+Avec toi :
+Sentics : [0.76, 0.0, 0.0, 0.95]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+Cabeleira :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Je m’en tape :
+Sentics : [0.0, 0.168, 0.0, 0.0]
+Sentiments : ['#calmness', '#calmness']
+Counter({'#calmness': 2})
+

@@ -1,0 +1,50 @@
+38 :
+Sentics : [0.2398611111111111, 0.16416666666666668, 0.00909722222222222, 0.06344444444444444]
+Sentiments : ['#sadness', '#fear', '#calmness', '#calmness', '#joy', '#eagerness', '#joy', '#pleasantness', '#pleasantness', '#fear', '#joy', '#eagerness', '#sadness', '#anger', '#sadness', '#pleasantness', '#joy', '#calmness', '#joy', '#calmness']
+Counter({'#joy': 5, '#calmness': 4, '#sadness': 3, '#pleasantness': 3, '#fear': 2, '#eagerness': 2, '#anger': 1})
+
+​bis um 3 :
+Sentics : [0.91, 0.3705, 0.0, 0.8855]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 2, '#eagerness': 2})
+
+Tresi :
+Sentics : [0.03669999999999998, -0.18180000000000002, 0.02, 0.1951]
+Sentiments : ['#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#calmness', '#sadness', '#fear', '#joy', '#calmness', '#sadness', '#fear', '#sadness', '#fear']
+Counter({'#joy': 4, '#sadness': 3, '#fear': 3, '#eagerness': 2, '#calmness': 2})
+
+Nein, leider niemals! :
+Sentics : [0.08, 0.0, 0.05, 0.06]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+Kodex :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+​mg :
+Sentics : [0.82, 0.0, 0.0, 1.0]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+63 :
+Sentics : [0.24, 0.035, -0.01, 0.26375]
+Sentiments : ['#sadness', '#fear', '#calmness', '#eagerness', '#sadness', '#pleasantness']
+Counter({'#sadness': 2, '#fear': 1, '#calmness': 1, '#eagerness': 1, '#pleasantness': 1})
+
+Ja, immer. :
+Sentics : [0.4246666666666667, 0.28225, 0.22258333333333336, 0.30675]
+Sentiments : ['#sadness', '#disgust', '#calmness', '#eagerness', '#joy', '#eagerness', '#calmness', '#eagerness', '#sadness', '#fear', '#sadness', '#disgust', '#joy', '#pleasantness']
+Counter({'#sadness': 3, '#eagerness': 3, '#disgust': 2, '#calmness': 2, '#joy': 2, '#fear': 1, '#pleasantness': 1})
+
+Stadtrundfahrt :
+Sentics : [0.39, 0.0, -0.427, 0.865]
+Sentiments : ['#pleasantness', '#fear', '#eagerness', '#eagerness']
+Counter({'#eagerness': 2, '#pleasantness': 1, '#fear': 1})
+
+Bis um 4 :
+Sentics : [0.306, 0.0, -0.1632, 0.396]
+Sentiments : ['#sadness', '#fear', '#pleasantness', '#fear', '#joy', '#joy', '#fear', '#fear', '#pleasantness', '#fear', '#joy', '#joy', '#sadness', '#fear', '#pleasantness', '#fear', '#joy', '#eagerness']
+Counter({'#fear': 7, '#joy': 5, '#pleasantness': 3, '#sadness': 2, '#eagerness': 1})
+

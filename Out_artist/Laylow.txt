@@ -1,0 +1,50 @@
+SPÉCIAL :
+Sentics : [0.0, 0.0, 0.513, 0.498]
+Sentiments : ['#pleasantness', '#eagerness', '#pleasantness', '#eagerness', '#pleasantness', '#eagerness']
+Counter({'#pleasantness': 3, '#eagerness': 3})
+
+10' :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+R9R-LINE :
+Sentics : [0.4485, 0.0, 0.0, 0.381]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+BURNING MAN :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+DEHORS DANS LA NIGHT :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+UNE HISTOIRE ÉTRANGE :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+STUNTMEN :
+Sentics : [0.714, 0.0, 0.967, 0.0]
+Sentiments : ['#joy', '#pleasantness']
+Counter({'#joy': 1, '#pleasantness': 1})
+
+MEGATRON :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+... DE BATARD :
+Sentics : [-0.14216666666666666, 0.213, 0.17716666666666664, -0.09449999999999997]
+Sentiments : ['#joy', '#eagerness', '#anger', '#disgust', '#calmness', '#calmness', '#anger', '#eagerness']
+Counter({'#eagerness': 2, '#anger': 2, '#calmness': 2, '#joy': 1, '#disgust': 1})
+
+VAMONOS :
+Sentics : [0.71, 0.0, -0.932, 0.5]
+Sentiments : ['#sadness', '#pleasantness']
+Counter({'#sadness': 1, '#pleasantness': 1})
+

@@ -1,0 +1,50 @@
+Rosa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Sheguey 8 (Dani Alves) :
+Sentics : [-0.08587499999999999, -0.0955, -0.087375, -0.11762500000000002]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#pleasantness', '#sadness', '#disgust', '#sadness', '#fear']
+Counter({'#sadness': 3, '#joy': 1, '#eagerness': 1, '#pleasantness': 1, '#disgust': 1, '#fear': 1})
+
+Terrasser :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Sheguey 7 (On n’est pas tout seul) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Jamais :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ne reviens pas :
+Sentics : [0.173, -0.2475, 0.0, 0.1535]
+Sentiments : ['#joy', '#anger']
+Counter({'#joy': 1, '#anger': 1})
+
+Sheguey 6 (Soldat Mili) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Oblah :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Balti :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Sheguey 5 (Escorte) :
+Sentics : [0.0, 0.98, 0.97, 0.0]
+Sentiments : ['#anger', '#disgust']
+Counter({'#anger': 1, '#disgust': 1})
+

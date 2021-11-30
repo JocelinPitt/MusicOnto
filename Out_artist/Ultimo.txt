@@ -1,0 +1,50 @@
+Pianeti :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Sogni appesi :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La stella più fragile dell’universo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Racconterò di te :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Cascare nei tuoi occhi :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Il ballo delle incertezze :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ti dedico il silenzio :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Stasera :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+L’unica forza che ho :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Giusy :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

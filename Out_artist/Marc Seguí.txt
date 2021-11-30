@@ -1,0 +1,50 @@
+A Cuestas :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Sabores :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+UH :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Si nos vamos :
+Sentics : [0.2783333333333333, 0.1475, 0.0, 0.164]
+Sentiments : ['#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#joy']
+Counter({'#joy': 3, '#calmness': 2, '#eagerness': 1})
+
+Always Vacaciones :
+Sentics : [0.0, 0.0, 0.0, 0.83]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Me enamoré de una fan :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mentiras :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ebai :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Gameboi :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Verdadero :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

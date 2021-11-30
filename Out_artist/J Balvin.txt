@@ -1,0 +1,50 @@
+Safari :
+Sentics : [0.0235, 0.0, 0.0, 0.0275]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Si Tu Novio Te Deja Sola :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Ginza :
+Sentics : [0.04, 0.005, -0.015, 0.05]
+Sentiments : ['#sadness', '#fear']
+Counter({'#sadness': 1, '#fear': 1})
+
+Morado :
+Sentics : [0.20675, 0.15025, 0.23625, 0.0]
+Sentiments : ['#joy', '#calmness', '#joy', '#pleasantness', '#calmness', '#calmness']
+Counter({'#calmness': 3, '#joy': 2, '#pleasantness': 1})
+
+Blanco :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Ambiente :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+No Es Justo :
+Sentics : [0.0, 0.056, 0.0, 0.0]
+Sentiments : ['#calmness', '#calmness']
+Counter({'#calmness': 2})
+
+Ahora :
+Sentics : [0.2025, -0.11125, -0.22775, 0.2125]
+Sentiments : ['#calmness', '#calmness', '#pleasantness', '#fear']
+Counter({'#calmness': 2, '#pleasantness': 1, '#fear': 1})
+
+Amarillo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Rosa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

@@ -1,0 +1,50 @@
+Che cazzo ridi :
+Sentics : [0.10235714285714285, 0.035, 0.08657142857142856, 0.15303571428571427]
+Sentiments : ['#joy', '#joy', '#pleasantness', '#fear', '#calmness', '#eagerness', '#disgust', '#fear', '#calmness', '#calmness', '#calmness', '#eagerness', '#joy', '#pleasantness', '#joy', '#eagerness', '#joy', '#pleasantness', '#calmness', '#eagerness', '#calmness', '#calmness']
+Counter({'#calmness': 7, '#joy': 5, '#eagerness': 4, '#pleasantness': 3, '#fear': 2, '#disgust': 1})
+
+TVTB :
+Sentics : [0.01, 0.039, 0.0, 0.5536666666666666]
+Sentiments : ['#fear', '#fear', '#eagerness', '#eagerness', '#calmness', '#eagerness']
+Counter({'#eagerness': 3, '#fear': 2, '#calmness': 1})
+
+Prima di ogni cosa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Bella Storia :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Problemi con tutti (Giuda) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Pensavo fosse amore e invece... :
+Sentics : [0.0, 0.0, 0.0, 0.225]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+
+Cigno nero :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Faccio brutto :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Holding Out for You :
+Sentics : [0.2091818181818182, -0.03636363636363636, 0.2189848484848485, 0.05259090909090909]
+Sentiments : ['#joy', '#pleasantness', '#joy', '#pleasantness', '#fear', '#fear', '#pleasantness', '#fear', '#sadness', '#disgust', '#joy', '#calmness', '#sadness', '#disgust', '#pleasantness', '#eagerness', '#joy', '#joy']
+Counter({'#joy': 5, '#pleasantness': 4, '#fear': 3, '#sadness': 2, '#disgust': 2, '#calmness': 1, '#eagerness': 1})
+
+Tutto il contrario :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

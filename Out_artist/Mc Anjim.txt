@@ -1,0 +1,50 @@
+Postura de Bandido :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Água Rosa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+After do Baile :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Surtação :
+Sentics : [0.24033333333333332, 0.19499999999999998, 0.30166666666666664, 0.055]
+Sentiments : ['#calmness', '#eagerness', '#calmness', '#calmness', '#joy', '#pleasantness']
+Counter({'#calmness': 3, '#eagerness': 1, '#joy': 1, '#pleasantness': 1})
+
+Minha Cara Fechada :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Água Rosa 2 (Demo) :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tem Que Ter Maldade :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Coleçãozinha de Puta :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Aquele Tal Combinado :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Drive Thru :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

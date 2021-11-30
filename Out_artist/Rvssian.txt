@@ -1,0 +1,15 @@
+Si Tú Lo Dejas :
+Sentics : [0.44334615384615383, 0.028871794871794875, -0.07610256410256411, 0.3081025641025641]
+Sentiments : ['#calmness', '#calmness', '#joy', '#joy', '#joy', '#anger', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#joy', '#joy', '#eagerness', '#sadness', '#fear', '#sadness', '#fear', '#joy', '#anger', '#joy', '#eagerness', '#joy', '#calmness', '#anger', '#anger', '#calmness', '#eagerness', '#calmness', '#eagerness']
+Counter({'#joy': 13, '#calmness': 7, '#eagerness': 6, '#anger': 4, '#sadness': 2, '#fear': 2})
+
+Privado :
+Sentics : [0.30697619047619046, 0.2262142857142857, 0.038464285714285715, 0.20002380952380952]
+Sentiments : ['#joy', '#pleasantness', '#calmness', '#eagerness', '#joy', '#calmness', '#fear', '#fear', '#joy', '#anger', '#joy', '#eagerness', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#calmness', '#sadness', '#disgust', '#sadness', '#fear', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#joy', '#joy', '#calmness', '#joy', '#eagerness', '#sadness', '#fear']
+Counter({'#joy': 11, '#calmness': 8, '#eagerness': 5, '#fear': 4, '#sadness': 3, '#pleasantness': 1, '#anger': 1, '#disgust': 1})
+
+Pull Up to Mi Bumper :
+Sentics : [0.2861078431372549, 0.12210294117647058, 0.14668627450980393, 0.12079411764705882]
+Sentiments : ['#joy', '#eagerness', '#joy', '#anger', '#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#disgust', '#fear', '#joy', '#calmness', '#joy', '#eagerness', '#joy', '#calmness', '#disgust', '#disgust', '#anger', '#disgust', '#sadness', '#fear', '#joy', '#eagerness', '#sadness', '#disgust', '#pleasantness', '#fear', '#joy', '#eagerness', '#sadness', '#fear', '#eagerness', '#eagerness', '#sadness', '#fear', '#anger', '#anger', '#disgust', '#disgust', '#sadness', '#anger', '#joy', '#pleasantness', '#joy', '#eagerness']
+Counter({'#joy': 11, '#eagerness': 9, '#disgust': 7, '#sadness': 6, '#fear': 6, '#anger': 5, '#calmness': 2, '#pleasantness': 2})
+

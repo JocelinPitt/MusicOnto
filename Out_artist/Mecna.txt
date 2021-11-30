@@ -1,0 +1,50 @@
+31/07 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+31/08 :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Scusa :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Vivere :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Wow :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Punto Debole :
+Sentics : [-0.45, 0.415, 0.0, 0.0]
+Sentiments : ['#joy', '#joy', '#anger', '#anger']
+Counter({'#joy': 2, '#anger': 2})
+
+Tu ed io :
+Sentics : [0.9, 0.0, 0.0, 0.0]
+Sentiments : ['#joy', '#joy']
+Counter({'#joy': 2})
+
+Pratica :
+Sentics : [0.0, 0.83, 0.0, 0.0]
+Sentiments : ['#anger', '#anger']
+Counter({'#anger': 2})
+
+Nonostante sia :
+Sentics : [0.0, 0.3065, 0.0, 0.0]
+Sentiments : ['#calmness', '#calmness', '#calmness', '#calmness']
+Counter({'#calmness': 4})
+
+Così Forte :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

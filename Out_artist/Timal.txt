@@ -1,0 +1,50 @@
+Maria :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Arrivant :
+Sentics : [0.0, 0.084, -0.06, 0.156]
+Sentiments : ['#calmness', '#eagerness']
+Counter({'#calmness': 1, '#eagerness': 1})
+
+4ème Rapport :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Dans la ville :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La 7 (Freestyle Jack Dani) :
+Sentics : [0.9, 0.0, 0.0, 0.9]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+Vatos :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+2ème Rapport :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+La 9 (Ruinart) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+La 8 (Chivas) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+La 4 (Freestyle) :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

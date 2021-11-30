@@ -1,0 +1,50 @@
+Pas les mêmes :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Émotif (Booska 1H) :
+Sentics : [0.544, 0.046000000000000006, 0.625, 0.44133333333333336]
+Sentiments : ['#disgust', '#fear', '#joy', '#eagerness', '#sadness', '#disgust', '#calmness', '#eagerness']
+Counter({'#disgust': 2, '#eagerness': 2, '#fear': 1, '#joy': 1, '#sadness': 1, '#calmness': 1})
+
+Dis-moi oui :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Un peu de haine :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Hier :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Problèmes :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Bunkoeur :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Polak :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Gozier :
+Sentics : [0.6583333333333333, 0.0, -0.17200000000000001, 0.6453333333333333]
+Sentiments : ['#sadness', '#fear', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#joy', '#joy', '#eagerness']
+Counter({'#joy': 6, '#eagerness': 2, '#sadness': 1, '#fear': 1})
+
+Idiote :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+

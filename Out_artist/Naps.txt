@@ -1,0 +1,50 @@
+Favela :
+Sentics : [0.837, 0.3625, 0.0, 0.45]
+Sentiments : ['#joy', '#calmness', '#joy', '#eagerness']
+Counter({'#joy': 2, '#calmness': 1, '#eagerness': 1})
+
+Recherché :
+Sentics : [0.011666666666666667, 0.0, 0.3066666666666667, 0.31]
+Sentiments : ['#sadness', '#disgust', '#sadness', '#disgust', '#disgust', '#fear']
+Counter({'#disgust': 3, '#sadness': 2, '#fear': 1})
+
+Pochon bleu :
+Sentics : [0.899, 0.0, 0.0, 0.885]
+Sentiments : ['#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 5, '#eagerness': 5, '#sadness': 1, '#fear': 1})
+
+T-shirt croco :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Elvira :
+Sentics : [0.853, 0.0, 0.0, 0.822]
+Sentiments : ['#joy', '#eagerness']
+Counter({'#joy': 1, '#eagerness': 1})
+
+4 anneaux :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Tu m’aimes pas :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+6.3 :
+Sentics : [0.49766666666666665, 0.0, 0.0, 0.5003333333333333]
+Sentiments : ['#joy', '#eagerness', '#sadness', '#disgust', '#joy', '#eagerness', '#sadness', '#disgust']
+Counter({'#joy': 2, '#eagerness': 2, '#sadness': 2, '#disgust': 2})
+
+La kiffance :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Le sens des affaires :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+

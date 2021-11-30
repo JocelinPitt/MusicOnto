@@ -1,0 +1,50 @@
+Acqua salata :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Crema di buccia :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Quanto ti vorrei :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Quando tu mi baci :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Non Cercarmi :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Inedito* :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Pegaso :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Non lasciarmi cadere :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Mare caldo :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Maledetta luna :
+Sentics : [0.4485, 0.2225, 0.0, 0.381]
+Sentiments : ['#calmness', '#calmness', '#joy', '#eagerness']
+Counter({'#calmness': 2, '#joy': 1, '#eagerness': 1})
+

@@ -1,0 +1,50 @@
+Mwaka Moon :
+Sentics : [[], [], [], []]
+Sentiments : []
+Counter()
+
+Rouge et bleu :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Taken :
+Sentics : [-0.015000000000000013, -0.1015, 0.3, -0.03]
+Sentiments : ['#joy', '#joy', '#sadness', '#disgust']
+Counter({'#joy': 2, '#sadness': 1, '#disgust': 1})
+
+Bando :
+Sentics : [0.46075, 0.08216666666666667, -8.333333333332878e-05, 0.4026666666666667]
+Sentiments : ['#sadness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#disgust', '#disgust', '#sadness', '#fear', '#joy', '#calmness']
+Counter({'#joy': 3, '#sadness': 2, '#fear': 2, '#eagerness': 2, '#disgust': 2, '#calmness': 1})
+
+Mwaka Moon (Luciano Remix) :
+Sentics : [-0.04, 0.0, 0.060000000000000005, -0.03]
+Sentiments : ['#sadness', '#fear', '#disgust', '#disgust']
+Counter({'#disgust': 2, '#sadness': 1, '#fear': 1})
+
+Koussi koussa :
+Sentics : [0.3521666666666667, 0.021666666666666667, 0.008333333333333333, 0.42666666666666664]
+Sentiments : ['#fear', '#fear', '#sadness', '#fear', '#joy', '#joy', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#joy': 4, '#fear': 3, '#eagerness': 2, '#sadness': 1})
+
+Moments gâchés :
+Sentics : [0.49325, 0.1768, -0.07769999999999999, 0.436]
+Sentiments : ['#sadness', '#fear', '#sadness', '#pleasantness', '#joy', '#eagerness', '#calmness', '#calmness', '#joy', '#eagerness', '#disgust', '#disgust', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness', '#sadness', '#disgust', '#calmness', '#calmness']
+Counter({'#joy': 5, '#eagerness': 5, '#calmness': 4, '#sadness': 3, '#disgust': 3, '#fear': 1, '#pleasantness': 1})
+
+Après l’automne :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Friendzone :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
+Mwaka Moon - Sfera Ebbasta Remix :
+Sentics : [0.0, 0.0, 0.0, 0.83]
+Sentiments : ['#fear', '#fear']
+Counter({'#fear': 2})
+

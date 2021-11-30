@@ -1,0 +1,20 @@
+10von10 :
+Sentics : [0.39975000000000005, 0.0, -0.07583333333333332, 0.4523333333333333]
+Sentiments : ['#pleasantness', '#fear', '#sadness', '#pleasantness', '#pleasantness', '#fear', '#joy', '#eagerness', '#joy', '#eagerness', '#joy', '#eagerness']
+Counter({'#pleasantness': 3, '#joy': 3, '#eagerness': 3, '#fear': 2, '#sadness': 1})
+
+Verkackt :
+Sentics : [0.8400000000000001, 0.0, -0.427, 0.45]
+Sentiments : ['#pleasantness', '#fear', '#joy', '#joy']
+Counter({'#joy': 2, '#pleasantness': 1, '#fear': 1})
+
+Hausbesuch :
+Sentics : [0.34450000000000003, 0.35250000000000004, -0.08650000000000001, 0.2115]
+Sentiments : ['#joy', '#calmness', '#calmness', '#eagerness']
+Counter({'#calmness': 2, '#joy': 1, '#eagerness': 1})
+
+Bete zu Gott :
+Sentics : [0.655, 0.635, -0.23, 0.3]
+Sentiments : ['#joy', '#calmness']
+Counter({'#joy': 1, '#calmness': 1})
+

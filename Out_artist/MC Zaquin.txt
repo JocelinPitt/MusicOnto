@@ -1,0 +1,5 @@
+Ô Moça :
+Sentics : [0.0, 0.0, 0.0, 0.0]
+Sentiments : []
+Counter()
+
