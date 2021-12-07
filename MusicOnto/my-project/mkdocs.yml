@@ -1,5 +1,0 @@
-site_name: Music Ontology
-
-nav:
-  - "Home": index.md
-  - "My test docs": test.md
