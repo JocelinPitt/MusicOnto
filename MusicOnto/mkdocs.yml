@@ -1,0 +1,9 @@
+site_name: MusicOnto
+site_url: https://MusicOnto.com/
+
+nav:
+    - "My page": my_page.md
+
+
+
+
