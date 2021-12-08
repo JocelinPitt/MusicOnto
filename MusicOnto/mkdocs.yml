@@ -2,8 +2,9 @@ site_name: MusicOnto
 site_url: https://MusicOnto.com/
 
 nav:
-    - "My page": my_page.md
-
+    - "Home": my_page.md
+    - Code Reference:
+          Sentics: Sentics-reference.md
 
 
 
