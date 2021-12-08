@@ -3,8 +3,12 @@ site_url: https://MusicOnto.com/
 
 nav:
     - "Home": my_page.md
-    - Code Reference:
-          Sentics: Sentics-reference.md
+
+
+plugins:
+    - search
+    - mkdocstrings
+
 
 
 
