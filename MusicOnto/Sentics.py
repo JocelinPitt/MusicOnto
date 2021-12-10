@@ -5,7 +5,6 @@ import senticnet6 as sentic  # A module for sentiment analysis
 import senticnet6_polarity as polarity
 
 from sense2vec import Sense2Vec
-from __init__ import s2v
 
 # English language loaded for reading the text files with spacy.
 nlp = spacy.load("en_core_web_sm")
@@ -16,6 +15,12 @@ nlp = spacy.load("en_core_web_sm")
 class Sentics:
 
     def __init__(self, text, most_similar=bool()):
+        """
+
+        Args:
+            text: The original input sentence
+            most_similar: bool: True if successful, False otherwise.
+        """
         self.text = text
         if most_similar != None:
             self.most_similar = most_similar

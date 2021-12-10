@@ -1,0 +1,30 @@
+
+site_name: MusicOnto
+site_url: https://MusicOnto.com/
+
+plugins:
+- mkdocstrings:
+    default_handler: python
+    handlers:
+      python:
+        rendering:
+          show_source: false
+    custom_templates: templates
+    watch:
+      - MusicOnto/MusicOnto
+
+nav:
+    - "Home": test_1.md
+    - "Test": test_2.md
+    - "ref": my_page.md
+
+
+theme:
+    name: "mkdocs"
+
+
+
+
+
+
+

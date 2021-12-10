@@ -10,7 +10,13 @@ from langdetect import detect
 
 class Songs:
 
+
     def __init__(self, path):
+        """
+
+        Args:
+            path: The path to the songs
+        """
         self.path = path
 
     # This function will take a song from a file made of lists of songs lyrics we get with genius and spotipy API and
@@ -18,11 +24,15 @@ class Songs:
     # [etc]]}
     def Cut_song(self, lines):
         """
+        This function will take a song from a file. It will make of lists of songs' lyrics we get with genius and spotipy
+        API and will cut it into a dict with the following structure:
+        {artiste: [[set_of_line_of_song1],[set_of_line_of_song2],[etc]]}
 
         Args:
-            lines:
+            lines: The cutted lines of each song
 
         Returns:
+            A dict of each songs that is cleaned
 
         """
         out = dict()
@@ -59,12 +69,12 @@ class Songs:
     # This function is a intermediary to sequentialy open files.
     def read_text_file(self, file_path):
         """
-
+        The read_text_file function is an intermediary function to sequentially open files.
         Args:
-            file_path:
+            file_path: It will read each song file from its path
 
         Returns:
-
+            A cutted song in lines
         """
         with open(file_path, 'r', encoding='UTF-8') as file:
             Lines = file.readlines()
@@ -75,12 +85,14 @@ class Songs:
     # function (via read_text_file funct)
     def get_all_file(self, path):
         """
+        This function will iterate through a folder to catch any text file (songs) and pass them to the cut_song
+        function (via read_text_file funct)
 
         Args:
-            path:
+            path: A path to each song's file
 
         Returns:
-
+            Dico: A dict that contains the songs
         """
         Dico = dict()
         for file in os.listdir(path):
@@ -99,11 +111,14 @@ class Songs:
     # from all the lines of a song
     def moy_sentics(self, list_of_list):
         """
+        The moy_sentics function has the same functionality like in the Sentics.compute_all_sentics()
+        but is modify to work with a list of sentics from all the lines of a song.
 
         Args:
-            list_of_list:
+            list_of_list: A list of all four sentiments for each sentence of the song.
 
         Returns:
+            A list of all four sentic values for the whole song.
 
         """
         sent1 = list()
@@ -131,9 +146,14 @@ class Songs:
     # value. Then append everything it has found in a single output, same goes for the sentiments found.
     def main(self):
         """
+        This is the main function. It will read the text files, make the dic of dic. Work through every song
+        found. For every line of every song, if the sentence is in english, it will pass it as a
+        Sentics class elem. find the main() value(of sentics class). Then append everything it has
+        found in a single output, same goes for the sentiments found.
 
         Returns:
-
+            A floder that contains a .txt file for every singer(artist) that contains the overall sentic values
+            and sentiment for each song.
         """
         dic = self.get_all_file(self.path)
         artist_sentics = list()
