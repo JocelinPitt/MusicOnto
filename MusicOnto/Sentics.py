@@ -79,8 +79,8 @@ class Sentics:
         return assemble
 
     def Ignore_prep(self, linked):
-        """ Ignore_prep is a function that reformats the new doc variables and remove prep elements as those carries over their sementicals
-        values to their child
+        """ Ignore_prep is a function that reformats the new doc variables and remove prep elements
+        as those carries over their sementicals values to their childs.
 
         Args:
             linked: a list that contains lemma, dependency and the child (token)
