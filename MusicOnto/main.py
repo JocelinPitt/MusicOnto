@@ -9,7 +9,6 @@ from langdetect import detect
 
 import Sentics
 
-
 class Songs:
 
 
