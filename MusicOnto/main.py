@@ -7,7 +7,7 @@ import owlready2 as owl
 import tqdm
 from langdetect import detect
 
-import Sentics
+from MusicOnto import Sentics as Sentics
 
 class Songs:
 

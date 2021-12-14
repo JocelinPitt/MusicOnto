@@ -4,9 +4,10 @@ build==0.7.0
 catalogue==2.0.6
 certifi==2021.10.8
 charset-normalizer==2.0.8
-click==8.0.3
+click==7.1.2
 colorama==0.4.4
 cymem==2.0.6
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
 ghp-import==2.0.2
 idna==3.3
 importlib-metadata==4.8.2
@@ -33,19 +34,19 @@ python-dateutil==2.8.2
 pytkdocs==0.12.0
 PyYAML==6.0
 pyyaml-env-tag==0.1
+req==1.0.0
 requests==2.26.0
 sense2vec==2.0.0
 six==1.16.0
 smart-open==5.2.1
-spacy==3.2.0
+spacy==3.0.7
 spacy-legacy==3.0.8
 spacy-loggers==1.0.1
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 srsly==2.4.2
 thinc==8.0.13
 tomli==1.2.2
 tqdm==4.62.3
-typer==0.4.0
+typer==0.3.2
 typing-extensions==3.7.4.3
 urllib3==1.26.7
 wasabi==0.8.2
