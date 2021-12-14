@@ -10,13 +10,10 @@ plugins:
         rendering:
           show_source: false
     watch:
-      - MusicOnto/MusicOnto
+      - MusicOnto/Sentics.py
 
 nav:
-    - "Home": test_1.md
-    - "Test": test_2.md
-    - "ref": my_page.md
-
+    - "Home": my_page.md
 
 theme:
     name: "mkdocs"
