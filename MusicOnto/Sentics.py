@@ -1,10 +1,10 @@
 # Importing the necessary python libraries
 
 import spacy
+from sense2vec import Sense2Vec
+
 import senticnet6 as sentic  # A module for sentiment analysis
 import senticnet6_polarity as polarity
-
-from sense2vec import Sense2Vec
 
 # English language loaded for reading the text files with spacy.
 nlp = spacy.load("en_core_web_sm")

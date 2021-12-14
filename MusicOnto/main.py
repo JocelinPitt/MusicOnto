@@ -1,11 +1,13 @@
-import Sentics
-import re
 import os
-import owlready2 as owl
-from collections import Counter
+import re
 import statistics as stat
+from collections import Counter
+
+import owlready2 as owl
 import tqdm
 from langdetect import detect
+
+import Sentics
 
 
 class Songs:
@@ -183,7 +185,7 @@ class Songs:
             artist_sentics.append([artist, Song_sentics])
             with open("Out_artist/" + str(artist) + ".txt", encoding="utf-8", mode='a') as f:
                 for sentic, sentiments, songs in zip(Song_sentics, Songs_sentiments, dic[artist]):
-                    onto = Song(str(songs),
+                    onto = onto.Song(str(songs),
                         introspection=str(sentiments[0]),
                         temper=str(sentiments[1]),
                         attitude=str(sentiments[2]),
