@@ -31,9 +31,8 @@ class Sentics:
         """ Tokens is a functions that returns
 
         Returns:
-            (1)children of each root,
-            (2)lemma & dependency of each child,
-            (3)ignores the tokens with preposition dependency
+            linked: a list
+
 
         """
         doc = nlp(self.text)
@@ -84,8 +83,6 @@ class Sentics:
         Args:
             linked: a list that contains lemma, dependency and the child (token)
 
-        Returns:
-            The reformated linked (list) where the prepositions are deleted.
 
         """
         remember_elem = None
@@ -294,8 +291,8 @@ class Sentics:
             child: the child of a token root.
             root: The root token
 
-        Returns:
-            similar words
+
+
 
         """
         s2v = Sense2Vec().from_disk("s2v_reddit_2015_md/s2v_old")
@@ -338,9 +335,11 @@ class Sentics:
             dic: All of the necessary tokens of the sentence
 
         Returns:
-            The average of sentiments of tokens (and combinations) for a sentence.
+            [sent1, sent2, sent3, sent4]:The average of sentiments of tokens (and combinations) for a sentence.
 
         """
+
+
         sent1 = sent2 = sent3 = sent4 = int(0)
         for elem in dic:
             if dic[elem][0] != []:
@@ -365,7 +364,7 @@ class Sentics:
         overall sentiment.
 
         Returns:
-            The overall sentiment of the sentence
+            self.compute_all_sentics(sentics), all_sentiments:The overall sentiment of the sentence
 
         """
         datas = self.Tokens()
