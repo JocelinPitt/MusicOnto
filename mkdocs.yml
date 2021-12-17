@@ -1,4 +1,3 @@
-
 site_name: MusicOnto
 site_url: https://MusicOnto.com/
 
@@ -8,15 +7,16 @@ plugins:
     handlers:
       python:
         rendering:
-          show_source: false
+          show_source: true
     watch:
-      - MusicOnto/Sentics.py
+      - MusicOnto/
 
 nav:
-    - "Home": my_page.md
+    - "Home": main.md
+    - "Sentics": Sentics.md
 
 theme:
-    name: "mkdocs"
+    name: "readthedocs"
 
 
 

@@ -1,4 +1,4 @@
 # Documentation for `Sentics`
 
 ## Sentics module
-::: MusicOnto.Sentics.Sentics
+::: MusicOnto.main
