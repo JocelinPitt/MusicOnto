@@ -15,6 +15,7 @@ class Sentics:
 
     def __init__(self, text, most_similar=bool()):
         """
+        __init__ is used when the access is required to initialize the attributes of the class Sentics.
 
         Args:
             text: The original input sentence
@@ -28,10 +29,11 @@ class Sentics:
 
     # Defining get_tokens function
     def Tokens(self):
-        """ Tokens is a functions that returns
+        """ Tokens is a functions that after nlp analysing the sentence, returns a list of children
+        of that sentence (without tokens that are prepositions)
 
         Returns:
-            linked: a list
+            linked: a list of children that are not prepositions.
 
 
         """

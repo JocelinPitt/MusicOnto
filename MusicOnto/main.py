@@ -14,6 +14,7 @@ class Songs:
 
     def __init__(self, path):
         """
+        __init__ is used when the access is required to initialize the attributes of the class Sentics.
 
         Args:
             path: The path to the songs
