@@ -7,7 +7,7 @@ plugins:
     handlers:
       python:
         rendering:
-          show_source: true
+          show_source: false
     watch:
       - MusicOnto/
 
