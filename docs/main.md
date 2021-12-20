@@ -1,4 +1,4 @@
 # Documentation for `Main`
 
-## Sentics module
+## main module
 ::: MusicOnto.main
