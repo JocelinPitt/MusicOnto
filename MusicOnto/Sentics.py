@@ -1,13 +1,15 @@
 # Importing the necessary python libraries
-
-import en_core_web_sm
+import spacy as spacy
 from sense2vec import Sense2Vec
 
 from MusicOnto import senticnet6 as sentic  # A module for sentiment analysis
 from MusicOnto import senticnet6_polarity as polarity
 
 # English language loaded for reading the text files with spacy.
-nlp = en_core_web_sm.load()
+spacy_model_name = 'en_core_news_sm'
+if not spacy.util.is_package(spacy_model_name):
+    spacy.cli.download(spacy_model_name)
+nlp = spacy.load(spacy_model_name)
 
 # Defining the "Sentics Class" for all the  sentic rules found at "https://sentic.net/senticnet-6.pdf"
 
