@@ -12,7 +12,7 @@ plugins:
       - MusicOnto/
 
 nav:
-    - "main": main.md
+    - "main": index.md
     - "Sentics": Sentics.md
 
 theme:
