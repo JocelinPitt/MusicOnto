@@ -30,7 +30,7 @@ class Sentics:
             self.most_similar = False
 
     # Defining get_tokens function
-    def Tokens(self):
+    def tokens(self):
         """ Tokens is a functions that after nlp analysing the sentence, returns a list of children
         of that sentence (without tokens that are prepositions)
 
@@ -55,7 +55,7 @@ class Sentics:
 
     # this function remove non-semantics elements from the phrase and reformat the doc variable from nlp() to in a
     # more usefull shape
-    def Assemble(self, doc, childs):
+    def assemble(self, doc, childs):
 
         """ Assemble is a function that creates a list of children whose dependency is excluded
         of the list defined in the function (like punctuations and determinations)
